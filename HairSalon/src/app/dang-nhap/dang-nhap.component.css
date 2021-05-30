@@ -1,0 +1,82 @@
+body{
+  background: url("src/assets/images/nen-dangnhap.jpg");
+  background-size: 100%;
+  weight: 1366px;
+  height: 618px;
+  background-repeat: no-repeat;
+}
+.container-dangnhap{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 850px;
+
+}
+.tieudedangnhap{
+  font-family: Bahnschrift;
+  font-size: 25px;
+  color:#707070;
+}
+.input100 {
+  font-family: Bahnschrift;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #666666;
+  display: block;
+  background: white;
+  width: 340px;
+  height: 58px;
+  border-radius: 10px;
+  padding: 0 10px 0 15px;
+
+}
+.button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+.login100-form-btn {
+  font-family: Bahnschrift;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 372px;
+  height: 51px;
+  border-radius: 25px;
+  background: #A8814C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login100-form-btn:hover {
+  background: darkolivegreen;
+}
+.txt1{
+  font-family: Bahnschrift;
+  font-size: 20px;
+  color: #707070;
+}
+.txt2{
+  font-family: Bahnschrift;
+  font-size: 20px;
+  color: #A8814C;
+  text-decoration: none;
+
+}
+.text-center{
+  margin-left: 10%;
+}
