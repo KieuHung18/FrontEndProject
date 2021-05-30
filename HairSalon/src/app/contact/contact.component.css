@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift";
+  font-size: 20px;
+  /* color: #f2e59f; */
+}
+.content{
+  width: 1156px;
+  height: 566px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.title h3{
+  font-size: 40px;
+  text-align: center;
+  height: 58px;
+}
+.form-contact{
+  border: solid 1px #a8814c;
+  width: 908px;
+  height: 508px;
+  margin-left: 200px;
+
+}
+
+.contact{
+  position: relative;
+  margin-bottom: 20px;
+}
+.img{
+  position: absolute;
+  top:70px;
+  left:20px;
+  opacity: 95%;
+  width: 459px;
+  height: 292px;
+  box-shadow:3px 0px 20px 5px #a8814c;
+  background-image: url(src/assets/images/3851122.jpg);
+  background-size: cover;
+
+}
+.form{
+  width: 738px;
+  height: 475px;
+  background-color: #a8824c10;
+  margin-top: 10px;
+  margin-left: 135px;
+  padding-left: 180px;
+
+}
+.item{
+  border: transparent;
+  border-radius: 10px;
+  margin-bottom: 38px;
+  height: 50px;
+  padding-left: 10px;
+  width: 500px;
+}
+.name-mail{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 40px;
+  width: 500px;
+}
+.name{
+  width: 237px;
+
+}
+.email{
+  width: 250px;
+
+}
+.content-form{
+  height: 170px;
+}
+.send{
+  width: 170px;
+  height: 35px;
+  float: right;
+  margin-right: 70px;
+  background-color: #a8814c;
+
+}
+.send:hover{
+  background-color: #000000;
+  color: #a8814c;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+

@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift";
+  font-size: 14px;
+  color: #f2e59f;
+}
+.content{
+  width: 100%;
+  height: 145px;
+  background-image: linear-gradient(to right, #341a01, #b49366);
+  display: flex;
+
+
+}
+img{
+  height: 40px;
+  width: 40px;
+}
+.logo{
+  font-size: 10px;
+  margin: 18px 0px 18px 22px;
+}
+
+.title{
+  display: flex;
+  position: relative;
+}
+.image_logo{
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  background-image: url(src/assets/images/logo.png);
+  background-size: cover ;
+}
+.HS{
+  margin-right: 3px;
+  color: #b39d66;
+  font-size: 20px;
+}
+.hairSalon{
+  color: #b39d66;
+  font-size: 20px;
+}
+.HS:after {
+
+  content: "";
+  position: absolute;
+  height: 18px;
+  top: 4px;
+  left: 28px;
+  border-left: #b39d66 solid 1px;
+}
+
+.navi{
+  border: 15px solid transparent;
+  border-image-source: url(src/assets/images/imgnavi.png);
+  border-image-slice: 13;
+  border-image-repeat: round;
+  width: 1176px;
+  margin: auto;
+  margin-top: 74px;
+}
+
+.item{
+  display: grid;
+  overflow: hidden;
+  margin: auto;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.contain_item{
+  border: 1px solid #f2e59f;
+  width: 110px;
+  margin-left: 80px;
+  position: relative;
+  text-align: center;
+}
+.contain_item:after {
+
+  content: "";
+  position: absolute;
+  height: 30px;
+  top:0px;
+  right: 150px;
+  border-left: #f2e59f solid 1px;
+}
+.contain_item1{
+  display: flex;
+  position: relative;
+  width: 110px;
+  margin-left: 80px;
+
+}
+
+.contain_item1 p {
+  width: 110px;
+  border: 1px solid #f2e59f;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.down{
+  background-image: url(src/assets/images/arrow-down-filled-triangle.png);
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 120px;
+  top:9px;
+}
