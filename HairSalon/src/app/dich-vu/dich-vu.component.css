@@ -1,0 +1,139 @@
+
+body{
+  background: url("src/assets/images/nen-dich-vu.jpg");
+  background-size: 100%;
+  weight: 1366px;
+  height: 968px;
+  background-repeat: no-repeat;
+}
+.container{
+  font-family: Bahnschrift;
+  position: absolute;
+  width: 1072px;
+  height: 551px;
+  border-radius: 5%;
+  margin-top: 160px;
+  margin-left: 200px;
+  background: url("src/assets/images/nen-dich-vu2.jpg") center;
+  background-size: cover;
+}
+.text{
+  text-align: center;
+  color: #A8814C;
+}
+.textDV{
+  font-size: 25px;
+}
+.textclcn{
+  font-size: 30px;
+  margin-top: -25px;
+}
+.textcd{
+  font-size: 20px;
+  margin-top:425px;
+}
+.hr1{
+  size:1000px;
+  background-color: black;
+  width: 450px;
+  margin-top: -520px;
+  margin-left: 40px;
+}
+.hr2{
+  size:1000px;
+  background-color: black;
+  width: 450px;
+  margin-top: -10px;
+  margin-left: 580px;
+}
+
+.container-dichvu-cat {
+  font-family: Bahnschrift;
+  position: absolute;
+  width: 278px;
+  height: 185px;
+  margin-top: 40px;
+  margin-left: 60px;
+  background: url("src/assets/images/cat.jpg") left;
+  background-size: cover;
+}
+.container-dichvu-nhuom {
+  font-family: Bahnschrift;
+  position: absolute;
+  width: 278px;
+  height: 185px;
+  margin-top: 40px;
+  margin-left: 400px;
+  background: url("src/assets/images/nhuom.jpg") left;
+  background-size: cover;
+}
+.container-dichvu-duoi {
+  font-family: Bahnschrift;
+  position: absolute;
+  width: 278px;
+  height: 185px;
+  margin-top: 40px;
+  margin-left: 740px;
+  background: url("src/assets/images/duoi.jpg") left;
+  background-size: cover;
+}
+.container-dichvu-uon {
+  font-family: Bahnschrift;
+  position: absolute;
+  width: 278px;
+  height: 185px;
+  margin-top: 260px;
+  margin-left: 60px;
+  background: url("src/assets/images/uon.jpg") left;
+  background-size: cover;
+}
+
+.container-dichvu-csda {
+  font-family: Bahnschrift;
+  position: absolute;
+  width: 278px;
+  height: 185px;
+  margin-top: 260px;
+  margin-left: 400px;
+  background: url("src/assets/images/csda.jpg") left;
+  background-size: cover;
+}
+.khungden{
+  background-color: black;
+  position: center;
+  width: 245px ;
+  height: 36px;
+  margin-top: 140px;
+  margin-left: 20px;
+  border-color: #707070;
+  border-width: 1px;
+  border-style: solid;
+
+}
+.khungden-text-a{
+  text-decoration: none;
+  color: white;
+  font-family: Bahnschrift;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 20px;
+
+}
+.hr3{
+  size:1000px;
+  background-color: black;
+  width: 155px;
+  margin-top: 485px;
+  margin-left: 40px;
+}
+.hr4{
+  size:1000px;
+  background-color: black;
+  width: 155px;
+  margin-top: -10px;
+  margin-left: 875px;
+}
+
+
+
+
