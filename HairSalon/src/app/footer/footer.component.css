@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift";
+  font-size: 20px;
+  color: #F5DBB8;
+}
+.content{
+  width: 100%;
+  height: 200px;
+  background-image: url(src/assets/images/footer.png);
+  display: grid;
+  grid-template-columns: 32% 16% 52%;
+  position: relative;
+}
+
+
+.logo{
+  font-size: 10px;
+  margin: 10px;
+  margin-right: 50px;
+
+}
+.title{
+  display: flex;
+  position: relative;
+}
+.image_logo{
+  margin-left: 20px;
+  background-image: url(src/assets/images/logo.png);
+  background-size:cover ;
+  width:40px;
+  height: 40px;
+}
+.HS{
+  margin-right: 3px;
+  color: #b39d66;
+
+}
+.hairSalon{
+  color: #b39d66;
+}
+.HS:after {
+
+  content: "";
+  position: absolute;
+  height: 18px;
+  top: 4px;
+  left: 28px;
+  border-left: #b39d66 solid 1px;
+}
+.text p{
+  font-size: 14px;
+  margin-left:60px ;
+  margin-top: 30px;
+}
+.grid1:after {
+
+  content: "";
+  position: absolute;
+  height: 180px;
+  top: 10px;
+  left: 442px;
+  border-left: #707070 solid 1px;
+}
+.grid2:after {
+
+  content: "";
+  position: absolute;
+  height: 180px;
+  top: 10px;
+  left: 640px;
+  border-left: #707070 solid 1px;
+}
+.list{
+  margin: 26px;
+
+}
+.list-item{
+  font-size: 14px;
+  margin-top: 16px;
+  width: 147px;
+  text-align: center;
+}
+.grid3 p {
+  font-size: 14px;
+  margin: 8px;
+}
+.letter{
+  text-align: center;
+}
+.mail-contact{
+  display: flex;
+  width: 665px;
+  height: 40px;
+  margin: auto;
+}
+.mail{
+  background-color: white;
+  width:613px ;
+  text-align: left;
+}
+.mail-enter{
+  background-color:#A8814C;
+  width: 42px;
+  position: relative;
+}
+.img-enter{
+  background-image: url(src/assets/images/send.png);
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  position: absolute;
+  left: 8px;
+  top:8px
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 10px;
+}
+.link{
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+.face-inta{
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-top:5px ;
+
+}
+.img-face{
+  background-image: url(src/assets/images/facebook.png);
+}
+.img-inta{
+  background-image: url(src/assets/images/instagram.png);
+}
