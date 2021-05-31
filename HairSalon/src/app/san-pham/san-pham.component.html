@@ -1,1 +1,40 @@
-<p>san-pham works!</p>
+<div class="product_container">
+  <p class="san_pham">Sản Phẩm</p>
+  <form class="search_form" #search='ngForm' (ngSubmit)="onSearch(search)">
+    <input class="search_input" placeholder="Tìm kiếm..." ngModel name="search">
+    <input type="image" class="search_button" src="assets/images/search_icon.png" alt="">
+  </form>
+  <span class="line"></span>
+  <div class="product_table">
+    <table class="table">
+      <td *ngFor="let product of productList | paginate: { itemsPerPage: 10, currentPage: p }; let i = index">
+        <div *ngIf="i%10<=4" class="product_top">
+          <img class="product_img" src="assets/images/tempolary.png">
+          <form class="watch_form" #Watch='ngForm' (ngSubmit)="onWatch(product.id)">
+            <button class="watch_button">Xem chi tiết</button>
+          </form>
+          <div class="product_name">{{product.name}}</div><br>
+          <div class="product_price">{{product.price}}</div><br>
+          <form class="add_form" #add='ngForm' (ngSubmit)="onAdd(product.id)">
+            <button class="add_button">Thêm vào giỏ</button>
+          </form>
+        </div>
+        <div *ngIf="i%10>4" class="product_bot">
+          <img class="product_img" src="assets/images/tempolary.png">
+          <form class="watch_form" #Watch='ngForm' (ngSubmit)="onWatch(product.id)">
+            <button class="watch_button">Xem chi tiết</button>
+          </form>
+          <div class="product_name">{{product.name}}</div><br>
+          <div class="product_price">{{product.price}}</div><br>
+          <form class="add_form" #add='ngForm' (ngSubmit)="onAdd(product.id)">
+            <button class="add_button">Thêm vào giỏ</button>
+          </form>
+        </div>
+
+      </td>
+    </table>
+  </div>
+  <div class="pagination">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+</div>
