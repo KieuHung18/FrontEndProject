@@ -21,6 +21,7 @@ img{
 .logo{
   font-size: 10px;
   margin: 18px 0px 18px 22px;
+  width: 15%;
 }
 
 .title{
@@ -58,7 +59,7 @@ img{
   border-image-source: url(src/assets/images/imgnavi.png);
   border-image-slice: 13;
   border-image-repeat: round;
-  width: 1176px;
+  width:85%;
   margin: auto;
   margin-top: 74px;
 }
