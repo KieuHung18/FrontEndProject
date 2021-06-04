@@ -12,6 +12,9 @@ import { DangNhapComponent } from './dang-nhap/dang-nhap.component';
 import { NgxPaginationModule } from "ngx-pagination";
 import { SanPhamComponent } from "./san-pham/san-pham.component";
 import { AbouUSComponent } from './abou-us/abou-us.component';
+import { DangKyComponent } from './dang-ky/dang-ky.component';
+import { ThongTinCaNhanComponent } from './thong-tin-ca-nhan/thong-tin-ca-nhan.component';
+
 
 @NgModule({
   declarations: [
@@ -22,8 +25,10 @@ import { AbouUSComponent } from './abou-us/abou-us.component';
     DichVuComponent,
     SanPhamComponent,
     DangNhapComponent,
-    AbouUSComponent
-
+    AboutUs,
+    AbouUSComponent,
+    DangKyComponent,
+    ThongTinCaNhanComponent
   ],
   imports: [
     BrowserModule, NgxPaginationModule, FormsModule
