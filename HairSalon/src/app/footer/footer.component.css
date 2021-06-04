@@ -12,9 +12,8 @@
   display: grid;
   grid-template-columns: 32% 16% 52%;
   position: relative;
+  margin: auto;
 }
-
-
 .logo{
   font-size: 10px;
   margin: 10px;
