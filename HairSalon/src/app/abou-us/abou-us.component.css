@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift";
+  font-size: 20px;
+  color: #707070;
+}
+h4{
+  font-size: 30px;
+}
+.yellow{
+  color: #a8814c;
+  padding-left: 8px;
+
+}
+.text-yellow{
+  color: #a8814c;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.content{
+  width:100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+.title{
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+}
+.grid1{
+  display: grid;
+  grid-template-columns: 68% 32%;
+  height: 250px;
+  position: relative;
+
+}
+.grid1-left{
+  margin: 25px 20px 25px 37px;
+}
+.hairSalon{
+  display: flex;
+  margin-bottom: 10px;
+}
+.shopNow_button{
+  background-color: #a8814c;
+  color: black;
+  border-radius: 15px;
+  width: 122px;
+  height: 40px;
+  border: transparent;
+  float: right;
+
+}
+.shopNow_button:hover{
+  color: #a8814c;
+  background-color: #000000;
+
+}
+.img-gird1{
+  border: 1px solid transparent;
+  background-image: url(src/assets/images/anhsalon.jpg);
+  border-radius: 18px;
+  background-size: cover ;
+  height: 90%;
+  width: 90%;
+}
+.grid1:before{
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: -13%;
+  left: 0px;
+  border-top: #a8814c solid 1px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 30px 72px;
+  background-color: #efefef;
+  position: relative;
+}
+.grid2-left-right{
+  text-align: center;
+  margin-right:20px ;
+}
+.left-img{
+  background-image: url(src/assets/images/about03_infor_1_ico.png);
+  background-size: cover;
+}
+.right-img{
+  background-image: url(src/assets/images/about03_infor_2_ico.png);
+  background-size: cover;
+}
+.img-grid2{
+  height:70px;
+  width: 70px;
+  margin-left: 43.5%;
+}
+.grid2:before{
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-top: #5b5b5b solid 1px;
+}
+.grid2:after{
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  border-top: #a8814c solid 1px;
+}
+.grid3{
+  width: 100%;
+}
+.text-grid3{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding-left: 41.3%;
+}
+.img-grid3{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top:40px;
+}
+.grid3 .left{
+  background-image: url(src/assets/images/images.jpg);
+
+}
+.grid3 .center{
+  background-image: url(src/assets/images/images.jpg);
+
+}
+.grid3 .right{
+  background-image: url(src/assets/images/images.jpg);
+
+}
+.item-img-grid3{
+  background-size: cover;
+  height: 220px;
+  width: 194px;
+  /* border: 1px solid #a8814c; */
+
+}
+.info{
+  margin-top: 125px;
+  height: 95px;
+  background-color: #ffffff69;
+  text-align: center;
+}
+.list-icon{
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  background-size: cover;
+  height: 29px;
+  width: 29px;
+}
+.icon1{
+  background-image: url(src/assets/images/facebook.png);
+}
+.icon2{
+  background-image: url(src/assets/images/instagram.png);
+}
+.icon3{
+  background-image: url(src/assets/images/google-symbol.png);
+  background-image: url(src/assets/images/google-symbol.png);
+}

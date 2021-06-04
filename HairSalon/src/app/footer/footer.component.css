@@ -8,14 +8,12 @@
 }
 .content{
   width: 100%;
-  height: 200px;
   background-image: url(src/assets/images/footer.png);
   display: grid;
   grid-template-columns: 32% 16% 52%;
   position: relative;
+  margin: auto;
 }
-
-
 .logo{
   font-size: 10px;
   margin: 10px;
@@ -55,22 +53,26 @@
   margin-left:60px ;
   margin-top: 30px;
 }
-.grid1:after {
+.grid2:before {
 
   content: "";
   position: absolute;
   height: 180px;
   top: 10px;
-  left: 442px;
+  left: 0;
   border-left: #707070 solid 1px;
 }
+.grid2{
+  position: relative;
+}
+
 .grid2:after {
 
   content: "";
   position: absolute;
   height: 180px;
   top: 10px;
-  left: 640px;
+  right: 0;
   border-left: #707070 solid 1px;
 }
 .list{
@@ -89,31 +91,35 @@
 }
 .letter{
   text-align: center;
+  margin: 10px;
 }
 .mail-contact{
   display: flex;
-  width: 665px;
-  height: 40px;
+  width: 92%;
+  height: 30px;
+  position: relative;
   margin: auto;
 }
-.mail{
+.mail_input{
   background-color: white;
-  width:613px ;
+  width:100%;
   text-align: left;
-}
-.mail-enter{
-  background-color:#A8814C;
-  width: 42px;
-  position: relative;
-}
-.img-enter{
-  background-image: url(src/assets/images/send.png);
-  width: 24px;
-  height: 24px;
-  background-size: cover;
+  height: 29px;
   position: absolute;
-  left: 8px;
-  top:8px
+  left: 0;
+  border: transparent;
+}
+
+.send_button{
+  border: 1px solid #947d5d;
+  width: 30px;
+  height: 29px;
+  background-color: #a8814c;
+  position: absolute;
+  right: 0;
+}
+.send_form{
+  width: 100%;
 }
 
 .info{
