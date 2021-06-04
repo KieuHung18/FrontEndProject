@@ -1,0 +1,296 @@
+[
+    {
+        "id" : "c01",
+        "name" : "Cắt tóc ngắn nữ", 
+        "desc": "Gọn gàn và thoải mái.",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "c02",
+        "name" : "Cắt tóc Bob nữ", 
+        "desc": "Với độ dài trên vai hoặc chấm vai, tóc Bob trẻ trung là sự lựa chọn hàng đầu của những cô nàng cá tính.",
+        "price": 130000,
+        "rate": 5
+    },
+    {
+        "id" : "c03",
+        "name" : "Tóc nữ ngang vai", 
+        "desc": "Cá tính và năng động là đặc trưng của kiểu tóc đẹp này.",
+        "price": 110000,
+        "rate": 5
+    },
+    {
+        "id" : "c04",
+        "name" : "Tóc nữ lửng thẳng", 
+        "desc": "Tóc lửng thẳng không quá dài hay quá ngắn được nhiều bạn nữ ưa chuộng và trưng diện thường xuyên.",
+        "price": 100000,
+        "rate": 4
+    },
+    {
+        "id" : "c05",
+        "name" : "Tóc lửng tỉa layer nữ", 
+        "desc": " Tóc lửng ngang lưng layer giúp bạn trở nên xinh xắn, loại bỏ đi những tóc xơ, chẻ ngọn và trở nên quyến rũ thanh lịch.",
+        "price": 150000,
+        "rate": 4
+    },
+    {
+        "id" : "c06",
+        "name" : "Tóc dài tỉa layer nữ", 
+        "desc": " Mái tóc dài tỉa layer giúp tạo nên hiệu ứng tầng lớp bồng bềnh cho mái tóc, một diện mạo rạng ngời và nổi bật.",
+        "price": 110000,
+        "rate": 5
+    },
+    {
+        "id" : "c07",
+        "name" : "Tóc mái thưa nữ", 
+        "desc": " Với những nàng có vầng trán hơi dô thì tóc ngang vai mái thưa là sự lựa chọn hàng đầu.",
+        "price": 120000,
+        "rate": 5
+    },
+    {
+        "id" : "c08",
+        "name" : "Tóc không mái nữ", 
+        "desc": "Mái tóc không mái sẽ giúp bạn khoe trọn những đường nét thanh tú. Hoặc đơn giản là che bớt đi những nhược điểm trên gương mặt.",
+        "price": 120000,
+        "rate": 4
+    },
+    {
+        "id" : "c09",
+        "name" : "Tóc  mái bằng nữ", 
+        "desc": "Tóc mái bằng  thích hợp nhất với những nàng mặt tròn. Tuy nhiên với những nàng mặt dài lại vô cùng cá tính và thu hút.",
+        "price": 130000,
+        "rate": 5
+    },
+    {
+        "id" : "c10",
+        "name" : "Cắt tóc mái xéo nữ", 
+        "desc": "Tóc mái xéo có thể kết hợp với nhiều kiểu tóc khác nhau. Đặc biệt cực kì phù hợp với những nàng mặt hơi tròn một chút.",
+        "price": 150000,
+        "rate": 5
+    },
+    {
+        "id" : "c11",
+        "name" : "Tóc mái ngố nữ", 
+        "desc": "Kiểu tóc này luôn được các bạn nữ sinh tận dụng hết sức vì luôn tạo cảm giác đáng yêu và thân thiện.",
+        "price": 140000,
+        "rate": 4
+    },
+    {
+        "id" : "c12",
+        "name" : "Tóc mái ngố vòng cung nữ", 
+        "desc": "Kiểu tóc mái ngố nhưng với kiểu dáng khác là hình vòng cung. Kiểu tóc mái này rất được lòng các ngôi sao hạng A bởi sự mới lạ nhưng vô cùng trẻ trung.",
+        "price": 140000,
+        "rate": 5
+    },
+    {
+        "id" : "c13",
+        "name" : " Tóc nam ngắn", 
+        "desc": " Đây là kiểu tóc vừa mát mẻ gọn gàng, dễ dàng chăm sóc vừa giúp khẳng định được phong cách.",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "c14",
+        "name" : "Tóc layer nam", 
+        "desc": "Tóc được cắt tỉa layer so le mang đến cho các bạn nam một diện mạo hoàn hảo mới lạ và thoải mái hơn trong những ngày hè nắng nóng.",
+        "price": 120000,
+        "rate": 5
+    },
+    {
+        "id" : "c15",
+        "name" : "Tóc mohican", 
+        "desc": "Đây là kiểu tóc nam cổ điển với 2 bên mai và gáy được cạo trắng, phần tóc còn lại vuốt dựng mang đến cho bạn sự năng động, tự tin và thể hiện được phong cách của mình.",
+        "price": 140000,
+        "rate": 4
+    },
+    {
+        "id" : "c16",
+        "name" : "Tóc undercut", 
+        "desc": " Kiểu tóc nam này, tóc của bạn sẽ được cắt ngắn 2 bên và cắt cao ở phía đằng sau. Kiểu tóc này sẽ giúp các bạn nam trở nên nam tính và ấn tượng hơn.",
+        "price": 150000,
+        "rate": 5
+    },
+    {
+        "id" : "c17",
+        "name" : "Tóc nam 7/3", 
+        "desc": "Với đặc điểm được cắt sát gọn 2 bên với phần mái để dài được chia ngôi theo tỉ lệ 7/3 , kiểu tóc nam này sẽ gương mặt của bạn thêm cân đối, hài hòa, tôn lên vẻ nam tính quyền lực.",
+        "price": 120000,
+        "rate": 4
+    },
+    {
+        "id" : "c18",
+        "name" : "Tóc nam 2 mái", 
+        "desc": "Kiểu tóc nam này khá đơn giản, không yêu cầu chăm sóc quá nhiều những vẫn giúp bạn có một diện mạo chỉnh chu và lịch lãm.",
+        "price": 150000,
+        "rate": 5
+    },
+    {
+        "id" : "c19",
+        "name" : "Tóc tatoo", 
+        "desc": "Đây là kiểu tóc kẻ highlight/kẻ vạch giúp bạn trở nên phong trần, đẹp trai hơn, gây ấn tượng người đối diện từ cái nhìn đầu tiên.",
+        "price": 200000,
+        "rate": 4
+    },
+    {
+        "id" : "c20",
+        "name" : "Tóc side part", 
+        "desc": "Đây là kiểu tóc nam đẹp phù hợp với mọi gương mặt, giúp làm tăng sự nam tính và sự mềm mại cho tổng thể khuôn mặt.",
+        "price": 120000,
+        "rate": 5
+    },
+    {
+        "id" : "c21",
+        "name" : "Tóc nam 6/4", 
+        "desc": "Phần mái được chia theo tỷ lệ 6/4, có thể biến tấu với nhiều phong cách như duỗi thẳng tự nhiên, trẻ trung, tăng vẻ nam tính.",
+        "price": 120000,
+        "rate": 5
+    },
+    {
+        "id" : "c22",
+        "name" : "Tóc nam SPIKY", 
+        "desc": "Để tạo kiểu cắt sát tóc hai bên tạo điểm nhấn nhưng vẫn giữ nếp tóc đẹp như sao hàn và bụi bặm.",
+        "price": 100000,
+        "rate": 4
+    },
+    {
+        "id" : "c23",
+        "name" : " Tóc two block", 
+        "desc": "Với các kiểu tóc two block là kiểu tóc rất dễ dàng cho bạn chăm sóc.",
+        "price": 120000,
+        "rate": 5
+    },
+    {
+        "id" : "c24",
+        "name" : "Tóc nam ngắn để mái", 
+        "desc": "Tóc nam mạnh mẽ tóc ngắn cho mặt vuông tròn cạo đôi bên để mái xéo thường phục vụ các quý ông công sở, làm việc ở văn phòng.",
+        "price": 120000,
+        "rate": 4
+    },
+    {
+        "id" : "c25",
+        "name" : "Tóc nam Comma Hair", 
+        "desc": "Kiểu tóc Comma Hair ngắn gọn, mát mẻ. Giúp các chàng luôn đẹp trai và tự tin với phong cách lãng tử. ",
+        "price": 100000,
+        "rate": 4
+    },
+    {
+        "id" : "c26",
+        "name" : "Tóc nam cắt Gáy ngắn", 
+        "desc": " Dành cho những chàng công sở, lịch lãm, thanh tao và nhã nhặn thôi, không thể nào toát lên chất “men”",
+        "price": 140000,
+        "rate": 4
+    },
+    {
+        "id" : "c27",
+        "name" : "Tóc đầu nấm ", 
+        "desc": "Kiểu đầu này khá ngắn, đơn giản, như kiểu mái ngố, tuy nhiên lại không hoàn toàn như thế vì hai bên side được cắt ngắn, tạo cảm giác thoáng mát hơn.",
+        "price": 120000,
+        "rate": 4
+    },
+    {
+        "id" : "c28",
+        "name" : "Tóc moi nam kiểu Mullet", 
+        "desc": "Bạn thích một trải nghiệm khác biệt, với bản sắc riêng, thì có thể chọn tóc Mullet cắt móc nhé.",
+        "price": 140000,
+        "rate": 5
+    },
+    {
+        "id" : "c29",
+        "name" : "Tóc nam Mohawk", 
+        "desc": " Đây là mẫu tóc thường thấy ở các anh chàng đến từ các nước Châu Âu, Châu Mỹ bởi họ thường hay thể hiện cá tính riêng, táo bạo, theo chủ nghĩa cá nhân.",
+        "price": 140000,
+        "rate": 5
+    },
+    {
+        "id" : "c30",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "c30",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "p01",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "c02",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "c03",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "c04",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "c30",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "p06",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "p07",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "p08",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "p09",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+    {
+        "id" : "p10",
+        "name" : "Tóc nam 3 phân", 
+        "desc": "",
+        "price": 100000,
+        "rate": 5
+    },
+
+
+
+
+
+
+  
+]
