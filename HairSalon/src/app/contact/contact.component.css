@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 20px 0px;
   padding: 0;
   box-sizing: border-box;
   font-family: "Bahnschrift";
@@ -9,7 +9,6 @@
 .content{
   width: 1156px;
   height: 566px;
-  overflow: hidden;
   margin: auto;
 }
 

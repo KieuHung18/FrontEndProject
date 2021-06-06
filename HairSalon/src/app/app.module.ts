@@ -14,6 +14,7 @@ import { SanPhamComponent } from "./san-pham/san-pham.component";
 import { AbouUSComponent } from './abou-us/abou-us.component';
 import { DangKyComponent } from './dang-ky/dang-ky.component';
 import { ThongTinCaNhanComponent } from './thong-tin-ca-nhan/thong-tin-ca-nhan.component';
+import { GioHangComponent } from './gio-hang/gio-hang.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ThongTinCaNhanComponent } from './thong-tin-ca-nhan/thong-tin-ca-nhan.c
     DangNhapComponent,
     AbouUSComponent,
     DangKyComponent,
-    ThongTinCaNhanComponent
+    ThongTinCaNhanComponent,
+    GioHangComponent
   ],
   imports: [
     BrowserModule, NgxPaginationModule, FormsModule
