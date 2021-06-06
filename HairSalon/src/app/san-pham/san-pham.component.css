@@ -1,12 +1,12 @@
 .product_container{
-  transform: translateX(15px);
+  transform: translateX(55px);
   overflow: hidden;
   font-family: Bahnschrift, serif;
   font-weight: lighter;
   display: inline-block;
   width: 1245px;
   height: 1025px;
-  margin: auto;
+  margin: 0px;
 }
 .san_pham{
   font-weight: normal;

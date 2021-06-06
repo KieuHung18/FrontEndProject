@@ -1,0 +1,47 @@
+<div class="gio-hang-container">
+  <div class="detail-container">
+    <div class="cart-side">
+      <div class="void">
+      <table class="table">
+        <tr class="top">
+          <td class="col1">Sản phẩm</td>
+          <td class="col2">Giá</td>
+          <td class="col3">S.lượng</td>
+          <td class="col4">Tổng</td>
+        </tr>
+        <tr class="bot" *ngFor="let product of productList | paginate: { itemsPerPage: 3, currentPage: p }">
+          <td class="col1">
+            <button class="remove_button" (click)="remove(product.id)">x</button><br>
+            <img class="product_img" src="assets/images/tempolary.png">
+            <div class="product_name">{{product.name}}</div><br>
+          </td>
+          <td class="col2">{{product.price}}</td>
+          <td class="col3"><button class="decrease_button" (click)="decrease(product.id)">-</button>
+              {{getQuantity(product.id)}}
+              <button class="increase_button" (click)="increase(product.id)">+</button>
+          <td class="col4">{{product.price*getQuantity(product.id)}}</td>
+        </tr>
+      </table>
+      </div>
+      <div class="pagination-controls">
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+      </div>
+    </div>
+    <div class="checkout-side">
+      <div class="top_line"></div>
+      <p class="dat_lich">Đặt lịch</p>
+      <p class="time">Thời gian đặt lịch: 07:00 - 21:00</p>
+      <form class="time_form" #checkout='ngForm' (ngSubmit)="onCheckOut(checkout)">
+        <span class="text">Ngày: </span><input class="input" type="number" ngModel name="ngay">
+        <span class="text">Tháng: </span><input class="input" type="number" ngModel name="thang">
+        <span class="text">Năm: </span> 2021<br>
+        <div class="separate"></div>
+        <span class="text">Giờ: </span><input class="input" type="number" ngModel name="gio">
+        <span class="text">Phút: </span><input class="input" type="number" ngModel name="phut"><br>
+        <button class="checkout_button">Thanh Toán</button>
+      </form>
+      <div class="total">Tổng cộng: {{total()}}</div>
+      <button class="clear_button" (click)="onClear()">Xóa giỏ hàng</button>
+    </div>
+  </div>
+</div>
