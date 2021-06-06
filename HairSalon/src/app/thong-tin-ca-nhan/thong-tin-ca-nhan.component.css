@@ -7,13 +7,15 @@
 }
 .container-thong-tin-ca-nhan{
   font-family: Bahnschrift;
+  transform: translateY(5%);
   width: 872px;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border-radius: 30%;
-  background-color: white;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  background-color: #F3EFE0;
   background-size: cover;
   opacity: 85%;
 }
@@ -22,12 +24,44 @@
 
 }
 .tieudethongtincanhan{
-  color: #A8814C;
-  font-size: 35px;
-  margin-bottom: 100px;
+  color: #341a01;
+  font-size: 25px;
+  margin-left: auto;
 }
 .noidungthongtincanhan{
   margin-top: 50px;
   font-size: 20px;
 }
+.container-don-hang{
+  width: 1000px;
+  height: 100px;
+  font-family: Bahnschrift;
+  transform: translateX(20%);
+  margin-top: 20px;
+}
+table, th, td{
+  border:1px solid #868585;
+}
+.table-don-hang{
+  -ms-overflow-x: auto;
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+th, td{
+  text-align:left;
+  padding:10px;
+}
+table tr:nth-child(odd){
+  background-color:#b39d66;
+}
+table tr:nth-child(even){
+  background-color:white;
+}
+table tr:nth-child(1){
+  background-color:#A8814C;
+}
+
 

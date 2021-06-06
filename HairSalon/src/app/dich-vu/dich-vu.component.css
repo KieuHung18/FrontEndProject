@@ -18,7 +18,7 @@
   display: block;
   background: url("src/assets/images/nen-dich-vu2.jpg");
   background-size: cover;
-
+  transform: translateY(6%);
 }
 .text{
   text-align: center;

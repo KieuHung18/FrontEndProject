@@ -18,7 +18,7 @@
 .tieudedangnhap{
   font-family: Bahnschrift;
   font-size: 20px;
-  color:#707070;
+  color:white;
 }
 .input100 {
   font-family: Bahnschrift;
@@ -64,12 +64,13 @@
 }
 
 .login100-form-btn:hover {
-  background: olive;
+  background: #b39d66;
+  color: black;
 }
 .txt1{
   font-family: Bahnschrift;
   font-size: 15px;
-  color: #707070;
+  color: white;
 }
 .txt2{
   font-family: Bahnschrift;
