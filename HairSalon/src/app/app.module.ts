@@ -25,7 +25,6 @@ import { ThongTinCaNhanComponent } from './thong-tin-ca-nhan/thong-tin-ca-nhan.c
     DichVuComponent,
     SanPhamComponent,
     DangNhapComponent,
-    AboutUs,
     AbouUSComponent,
     DangKyComponent,
     ThongTinCaNhanComponent

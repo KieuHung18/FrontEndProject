@@ -1,3 +1,4 @@
+
 .container{
   background: url("src/assets/images/nen-dang-ky.jpg");
   background-size: 100%;
@@ -9,11 +10,10 @@
   background-repeat: no-repeat;
 }
 .container-dangky{
-  position: absolute;
-  width: 600px;
+  width: 500px;
   height: 400px;
-  margin-top: 15px;
-  margin-left: 900px;
+  transform: translateY(10px);
+  margin-left: 40%
 
 }
 .tieudedangky{
@@ -67,17 +67,18 @@
 }
 
 .login100-form-btn:hover {
-  background: olive;
+  background: #b39d66;
+  color: black;
 }
 .txt1{
   font-family: Bahnschrift;
   font-size: 15px;
-  color: #707070;
+  color: white;
 }
 .txt2{
   font-family: Bahnschrift;
   font-size: 15px;
-  color: #A8814C;
+  color: black;
   text-decoration: none;
 
 }
