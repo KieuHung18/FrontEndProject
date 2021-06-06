@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from "@angular/forms";
 import products from 'src/assets/data/products.json';
+import {CartService} from "../cart.service";
 
 function  filterType(codeType: string): {id:string, name:string, desc: string, price: number, rate: number}[]{
   let result: {id:string, name:string, desc: string, price: number, rate: number}[]=products;
@@ -19,12 +20,13 @@ function  search(name: string): {id:string, name:string, desc: string, price: nu
 export class SanPhamComponent implements OnInit {
   p: number = 1;
   public productList:{id:string, name:string, desc: string, price: number, rate: number}[] = products;
-  constructor() { }
+  constructor(private cartService: CartService) { }
   onSearch(form: NgForm){
-    console.log(form.value.search.toString())
+    this.productList=search(form.value.search.toString())
   }
-  onAdd(value: string){
-    console.log(value)
+  onAdd(product: {id:string, name:string, desc: string, price: number, rate: number}){
+    this.cartService.addToCart(product);
+    window.alert('Sản phẩm '+product.name+' đã được thêm vào giỏ hàng');
   }
   onWatch(value: string){
     console.log(value)

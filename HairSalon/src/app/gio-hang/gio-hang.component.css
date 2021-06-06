@@ -1,0 +1,89 @@
+.gio-hang-container{
+  font-family: Bahnschrift, serif;
+  font-weight: lighter;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.detail-container{
+  width: 1120px;
+  height: 735px;
+  margin: auto;
+  box-shadow: 0px 0px 20px #cacaca;
+}.cart-side{
+   width: 715px;
+   height: 735px;
+ }.void{height: 572px}.table{text-align: center;font-size: 14px;color: #6e6e6e;transform: translateY(35px)}.bot{transform: translateY(25px)}
+   .col1{
+      width: 179px;
+   }.product_img{
+         padding: 5px;
+         border: 1px solid #c7a97d;
+         width: 85px;
+       }
+    .product_name{font-weight: normal;color: black;padding: 0px}
+    .remove_button{transform: translate(38px, 20px);
+      height: 20px;
+      font-weight: bold;
+      background-color: transparent;border: 1px solid}.remove_button:hover{border:none;background-color: black;color: white;border-radius: 2px}
+   .col2{
+     width: 179px;
+   }
+   .col3{
+     width: 179px;
+   }.increase_button{background-color: transparent;border: none}.increase_button:hover{background-color: black;color: white;border-radius: 2px}
+    .decrease_button{background-color: transparent;border: none}.decrease_button:hover{background-color: black;color: white;border-radius: 2px}
+   .col4{
+     width: 179px;
+   }
+  .pagination-controls{transform: translate(210px, 75px);}
+ .checkout-side{
+   text-align: center;
+   transform: translate(715px,-735px);
+   width: 405px;
+   height: 735px;
+   background-color: #a8814c;
+   font-weight: bold
+ }.top_line{
+     width: 260px;
+     height: 5px;
+     border-radius: 5px;
+     transform: translateY(40px);
+     margin: auto;
+     background-color: black;
+   }
+  .time{transform: translateY(65px);}
+  .dat_lich{text-align: initial;transform: translate(70px, 60px);font-size: 19px;}
+  .time_form{
+    text-align: initial;
+    font-size: 14px;
+    transform: translate(65px, 80px);
+  }.input{
+       height: 20px;
+       width: 30px;
+       border: 1px solid #ada69c;
+       border-radius: 4px;
+     }.input:focus{border: none}.text{padding: 10px}.separate{height: 20px}
+  .checkout_button{
+    font-family: Bahnschrift, serif;
+    font-weight: bold;
+    background-color: black;
+    height: 37px;
+    width: 95px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    transform: translate(95px,100px);
+  }.checkout_button:hover{border: 1px solid black;background-color: white;color: black}
+   .total{ transform: translateY(85px);}
+  .clear_button{
+    font-family: Bahnschrift, serif;
+    font-weight: bold;
+    background-color: white;
+    height: 37px;
+    width: 95px;
+    color: black;
+    border: none;
+    border-radius: 18px;
+    transform: translate(5px,180px);
+  }.clear_button:hover{border: 1px solid white;background-color: black;color: white}
+
