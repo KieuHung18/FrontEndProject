@@ -1,1 +1,93 @@
-<app-trang-chu></app-trang-chu>
+<div class="container">
+  <div class="top">
+    <div class="intro_container">
+      <div class="quote">Professional</div>
+      <div class="quote">Hair Salon</div>
+      <div class="intro">Với tư cách là những thợ tạo mẫu tóc chuyên nghiệp tại HairSalon chúng tôi đảm bảo sẽ mang đến cho bạn một vẻ đẹp tốt nhất và bạn hoàn toàn có thể tin tưởng ở chúng tôi </div>
+      <div class="intro">HairSalon mang  đến cho bạn những dịch vụ an toàn và chất lượng với những sản phẩm uy tín, trang thiết bị hiện đại, nhân viên tay nghề chuyên nghiệp cam kết ang đến cho bạn sự hài lòng về chết lượng phục vụ và dịch vụ tại HairSalon</div>
+      <button class="button">Xem dịch vụ</button>
+    </div>
+    <div class="separate_line"></div>
+    <div class="list_container">
+      <table class="table">
+        <tr>
+          <td class="img_container"><div class="text">Cắt</div><input (click)="OnSanPham("c")" ) type="image" class="img" src="assets/images/Cat.png"></td>
+          <td class="img_container"><div class="text">Phục Hồi</div><input (click)="OnSanPham("p")" type="image" class="img" src="assets/images/PhucHoiToc.png"></td>
+          <td class="img_container"><div class="text">Nhộm </div><input (click)="OnSanPham("n")" type="image" class="img" src="assets/images/Nhuom.png"></td>
+          <td class="img_container"><div class="text">Duỗi</div><input (click)="OnSanPham("d")" type="image" class="img" src="assets/images/Duoi.png"></td>
+          <td class="img_container"><div class="text">Uốn</div><input (click)="OnSanPham("u")" type="image" class="img" src="assets/images/UonToc.png"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="bot">
+    <div class="bot_name">Sản phẩm tiêu biểu</div>
+    <div class="product_container">
+      <table class="table">
+        <tr>
+          <td *ngFor="let product of products">
+            <table class="product_table">
+              <tr>
+                <td>
+                  <div class="product_img">
+                    <input (click)="onWatch(product)" type="image" class="image" src="assets/Data/{{product.id}}.png">
+                  </div>
+                </td>
+                <td>
+                  <div class="info_container">
+                    <table>
+                      <tr>
+                        <td>
+                          <div class="holder">
+                            {{product.name}}
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="holder">
+                            {{product.price}}
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="holder">
+                            <table>
+                              <tr>
+                                <td class="star_shape">
+                                  <div *ngIf="product.rate<1" class="unactive_star_shape"></div>
+                                  <div *ngIf="product.rate>0" class="active_star_shape"></div>
+                                </td>
+                                <td class="star_shape">
+                                  <div *ngIf="product.rate<2" class="unactive_star_shape"></div>
+                                  <div *ngIf="product.rate>1" class="active_star_shape"></div>
+                                </td>
+                                <td class="star_shape">
+                                  <div *ngIf="product.rate<3" class="unactive_star_shape"></div>
+                                  <div *ngIf="product.rate>2" class="active_star_shape"></div>
+                                </td>
+                                <td class="star_shape">
+                                  <div *ngIf="product.rate<4" class="unactive_star_shape"></div>
+                                  <div *ngIf="product.rate>3" class="active_star_shape"></div>
+                                </td>
+                                <td class="star_shape">
+                                  <div *ngIf="product.rate<5" class="unactive_star_shape"></div>
+                                  <div *ngIf="product.rate>4" class="active_star_shape"></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

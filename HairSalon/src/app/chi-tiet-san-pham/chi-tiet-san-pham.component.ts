@@ -11,7 +11,7 @@ import {NgForm} from "@angular/forms";
 export class ChiTietSanPhamComponent implements OnInit {
   public product=history.state;
   public quantity=0;
-  constructor(private route: ActivatedRoute,private cartService: CartService) { }
+  constructor(private cartService: CartService) { }
   onAdd(){
     this.cartService.addToCarts(this.product,this.quantity);
     window.alert(this.quantity+' Sản phẩm '+this.product.name+' đã được thêm vào giỏ hàng');
