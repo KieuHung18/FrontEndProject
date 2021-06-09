@@ -132,15 +132,15 @@ h4{
   margin-top:40px;
 }
 .grid3 .left{
-  background-image: url(src/assets/images/images.jpg);
+  background-image: url(src/assets/images/anh.jpg);
 
 }
 .grid3 .center{
-  background-image: url(src/assets/images/images.jpg);
+  background-image: url(src/assets/images/Hung.png);
 
 }
 .grid3 .right{
-  background-image: url(src/assets/images/images.jpg);
+  background-image: url(src/assets/images/Man.png);
 
 }
 .item-img-grid3{
@@ -172,6 +172,5 @@ h4{
   background-image: url(src/assets/images/instagram.png);
 }
 .icon3{
-  background-image: url(src/assets/images/google-symbol.png);
   background-image: url(src/assets/images/google-symbol.png);
 }
