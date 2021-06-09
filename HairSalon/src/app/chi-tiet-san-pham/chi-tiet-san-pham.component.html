@@ -23,24 +23,24 @@
             <table>
               <tr>
                 <td class="star_shape">
-                  <div class="unactive_star_shape"></div>
-<!--                  <div class="active_star_shape"></div>-->
+                  <div *ngIf="product.rate<1" class="unactive_star_shape"></div>
+                  <div *ngIf="product.rate>0" class="active_star_shape"></div>
                 </td>
                 <td class="star_shape">
-                  <div class="unactive_star_shape"></div>
-<!--                  <div class="active_star_shape"></div>-->
+                  <div *ngIf="product.rate<2" class="unactive_star_shape"></div>
+                  <div *ngIf="product.rate>1" class="active_star_shape"></div>
                 </td>
                 <td class="star_shape">
-                  <div class="unactive_star_shape"></div>
-<!--                  <div class="active_star_shape"></div>-->
+                  <div *ngIf="product.rate<3" class="unactive_star_shape"></div>
+                  <div *ngIf="product.rate>2" class="active_star_shape"></div>
                 </td>
                 <td class="star_shape">
-                  <div class="unactive_star_shape"></div>
-<!--                  <div class="active_star_shape"></div>-->
+                  <div *ngIf="product.rate<4" class="unactive_star_shape"></div>
+                  <div *ngIf="product.rate>3" class="active_star_shape"></div>
                 </td>
                 <td class="star_shape">
-                  <div class="unactive_star_shape"></div>
-<!--                  <div class="active_star_shape"></div>-->
+                  <div *ngIf="product.rate<5" class="unactive_star_shape"></div>
+<!--                  <div *ngIf="product.rate>4" class="active_star_shape"></div>-->
                 </td>
               </tr>
             </table>
