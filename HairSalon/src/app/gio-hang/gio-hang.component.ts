@@ -24,6 +24,7 @@ export class GioHangComponent implements OnInit {
     return result;
   }
   onCheckOut(form: NgForm){
+    if(this.productList.length>0){
     let monthOdd=[1,3,5,7,8,10,12];let monthEven=[2,4,6,9,11];
     if(typeof form.value.ngay =="number"&&typeof form.value.thang =="number"&&typeof form.value.gio =="number"&&typeof form.value.phut =="number"){
       if(monthEven.includes(form.value.thang)&&form.value.ngay>=1&&form.value.ngay<=30&&form.value.gio<21&&form.value.gio>=7&&form.value.phut>=0&&form.value.phut<60){
@@ -42,6 +43,7 @@ export class GioHangComponent implements OnInit {
       }else{window.alert("Sai dữ liệu vui lòng nhập lại")}
       }
     }else{window.alert("Sai dữ liệu vui lòng nhập lại")}
+    }else{window.alert("Không có sản phẩm")}
   }
   remove(id: string){this.cartService.removeItems(id);}
   increase(id: string){this.cartService.increaseQuantity(id);}

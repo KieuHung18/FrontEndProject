@@ -38,15 +38,6 @@
   color: #b39d66;
 
 }
-.HS:after {
-
-  content: "";
-  position: absolute;
-  height: 18px;
-  top: 4px;
-  left: 28px;
-  border-left: #b39d66 solid 1px;
-}
 .text p{
   font-size: 14px;
   margin-left:60px ;

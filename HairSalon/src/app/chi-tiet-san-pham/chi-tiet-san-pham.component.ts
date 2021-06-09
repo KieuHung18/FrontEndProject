@@ -12,8 +12,10 @@ export class ChiTietSanPhamComponent implements OnInit {
   rate: number=0;
   constructor(private cartService: CartService) { }
   onAdd(){
+    if(this.quantity>1){
     this.cartService.addToCarts(this.product,this.quantity);
     window.alert(this.quantity+' Sản phẩm '+this.product.name+' đã được thêm vào giỏ hàng');
+    }else{window.alert("Không có sản phẩm")}
   }
   setRate(rate: number) {
     this.rate=rate;
