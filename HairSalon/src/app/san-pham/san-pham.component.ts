@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import {NgForm} from "@angular/forms";
 import products from 'src/assets/data/products.json';
 import {CartService} from "../cart.service";
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 
 function  filterType(codeType: string): {id:string, name:string, desc: string, price: number, rate: number}[]{
   let result: {id:string, name:string, desc: string, price: number, rate: number}[]=products;
-  return result.filter((x)=>x.id.substring(0,2) == codeType);
+  return result.filter((x)=>x.id.substring(0,1) == codeType);
 };
 function  search(name: string): {id:string, name:string, desc: string, price: number, rate: number}[]{
   let result: {id:string, name:string, desc: string, price: number, rate: number}[]=products;
@@ -21,7 +21,7 @@ function  search(name: string): {id:string, name:string, desc: string, price: nu
 export class SanPhamComponent implements OnInit {
   p: number = 1;
   public productList:{id:string, name:string, desc: string, price: number, rate: number}[] = products;
-  constructor(private cartService: CartService,private router: Router) { }
+  constructor(private cartService: CartService,private router: Router,private route: ActivatedRoute) { }
   onSearch(form: NgForm){
     this.productList=search(form.value.search.toString())
   }

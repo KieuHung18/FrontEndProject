@@ -9,7 +9,7 @@
 .content{
   width: 100%;
   height: 145px;
-  background-image: linear-gradient(to right, #341a01, #b49366);
+  background-image: linear-gradient(175deg, #341a01, #b49366);
   display: flex;
 
 
@@ -36,24 +36,11 @@ img{
   background-size: cover ;
 }
 .HS{
+  font-family: SimSun, serif;
   margin-right: 3px;
   color: #b39d66;
   font-size: 20px;
 }
-.hairSalon{
-  color: #b39d66;
-  font-size: 20px;
-}
-.HS:after {
-
-  content: "";
-  position: absolute;
-  height: 18px;
-  top: 4px;
-  left: 28px;
-  border-left: #b39d66 solid 1px;
-}
-
 .navi{
   border: 15px solid transparent ;
   border-image-source: url(src/assets/images/imgnavi.png);

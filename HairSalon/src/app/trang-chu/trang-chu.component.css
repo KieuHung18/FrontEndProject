@@ -1,0 +1,120 @@
+.container{
+  padding-bottom: 20px;
+}
+.top{background-image: url("src/assets/images/trangChuBackground.png");height: 768px;}
+.intro_container{
+  width: 435px;
+  transform: translate(145px, 100px);
+}
+.quote{
+  font-size: 70px;
+  font-family: Gabriola , serif;
+  color: #F5DBB8;
+  height: 75px;
+}
+.intro{
+  padding-top: 30px;
+  width: 435px;
+  font-family: Bahnschrift, serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #F5DBB8;
+}
+.button{
+  transform: translate(205px, 10px);
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: Bahnschrift, serif;
+  border: 1px solid #37250c;
+  color: wheat;
+  background-color: rgba(168, 126, 79, 0.5);
+  width: 125px;
+  height: 30px;
+  border-radius: 3px;
+}.button:hover{
+  font-weight: normal;
+  color: black;
+  transition: 0.5s;background-color:#BC8F4F
+ }
+.separate_line{
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(45deg, #b49366 ,#341a01);
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.list_container{}
+.table{margin: auto;}
+.img_container{
+  font-family: Bahnschrift, serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0,0,0,0);
+}
+.text{
+  position: absolute;
+  transform: translate(20px,70px);
+  width: 80px;
+  margin-left: 50px;
+}
+.img{
+  background-image: url("src/assets/images/Nhuom.png");
+  margin: 15px;
+  width: 180px;
+  height: 130px;
+  border: 5px solid #A8814C
+}.img:hover{opacity: 0.2;}.img_container:hover{transition: 0.1s;transform: translateY(-5px) scale(1.1); color: wheat;}
+.bot{
+text-align: center;
+}
+.bot_name{
+  font-family: Bahnschrift , serif;
+  font-size: 50px;
+  padding: 30px;
+}
+.info_container{
+  transform: translateY(68px);
+}
+.product_container{
+  width: 1270px;
+  height: 340px;
+  margin: auto;
+  padding-top: 94px;
+  box-shadow: 0px 0px 21px black;}
+.product_table{
+  margin-right: 20px;
+}
+.holder{
+  padding: 5px;
+  font-size: 13px;
+font-family: Bahnschrift, serif;
+  border: 1px solid #A8814C;
+}
+.product_img{
+  width: 185px;
+  height: 235px;
+  display: grid;
+  border: 1px solid #A8814C;
+}
+.image{
+  transform: scale(0.9);
+}.image:hover{transition: 0.2s;transform: scale(1.0)}
+.star_shape{
+  height: 20px;
+  width: 20px;
+  background-color: #441909;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}.active_star_shape{
+   height: 16px;
+   width: 16px;
+   margin: auto;
+   background-color: #a67f4a;
+   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)
+ }
+.unactive_star_shape{
+  height: 16px;
+  width: 16px;
+  margin: auto;
+  background-color: white;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)
+}
