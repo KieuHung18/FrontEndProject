@@ -1,0 +1,72 @@
+.thanh-toan-container{
+  font-family: Bahnschrift, serif;
+  font-weight: lighter;
+  background-image: url("src/assets/images/background.png");
+  height: 835px;
+}.thanh-toan-detail{
+   transform: translateY(50px);
+   background-color: white;
+   width: 1120px;
+   height: 735px;
+   margin: auto;
+   box-shadow: 0px 0px 20px #cacaca;
+ }.information{
+     color:#6e6e6e;
+     font-size: 14px;
+     text-align: center;
+     width: 715px;
+     height: 735px;
+   }.form-container{width: 574px;margin: auto;transform: translateY(30px)}.information-form{text-align: left;
+       }.input{border: 1px solid #6e6e6e;
+                 height: 20px;
+                 width: 220px;
+               }
+    .thong-tin{
+      height: 55px;
+      transform: translateY(20px);
+      font-size: 18px;
+      font-weight:  bold;
+      color: black;
+    }
+    .information-line{
+      margin: auto;
+      background-color: #6e6e6e;
+      width:400px;
+      height: 3px;
+    }
+    .separate{
+      width: 20px;
+      height:40px;
+    }
+  .receipt{
+    text-align: center;
+    transform: translate(715px,-735px);
+    width: 405px;
+    height: 735px;
+    background-color: #a8814c;
+    font-weight: bold;
+    color: white;
+  }.hoa-don{
+       height: 55px;
+       transform: translateY(20px);
+       font-size: 18px;
+     }
+   .receipt-line{
+     background-color: black;
+     width: 400px;
+     height: 1px;
+   }.table{font-weight: normal;font-size: 14px}
+   .table-line{
+     position: absolute;
+     background-color: black;
+     width: 400px;
+     height: 1px;
+   }.text{margin: 20px;
+  transform: translateX(20px);
+       }
+    .void{
+      height: 500px;
+    }
+    .tong{
+      transform: translate(95px, 25px);
+    }

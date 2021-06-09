@@ -1,0 +1,97 @@
+<div class="container">
+<div class="detail_container">
+  <div class="top">
+    <div class="img_container">
+      <img class="img" src="assets/Data/{{product.id}}.png">
+    </div>
+    <div class="name_container">
+      <div class="hexagon_shape">
+        <div class="name">{{product.name}}</div>
+      </div>
+    </div>
+    <div class="side_container">
+      <table>
+        <tr>
+          <td class="gia">Giá</td>
+          <td ><div class="separate"></div></td>
+          <td class="price">{{product.price}}</td>
+        </tr>
+        <tr>
+          <td class="review">Review</td>
+          <td ><div class="separate"></div></td>
+          <td class="rate">
+            <table>
+              <tr>
+                <td class="star_shape">
+                  <div class="unactive_star_shape"></div>
+<!--                  <div class="active_star_shape"></div>-->
+                </td>
+                <td class="star_shape">
+                  <div class="unactive_star_shape"></div>
+<!--                  <div class="active_star_shape"></div>-->
+                </td>
+                <td class="star_shape">
+                  <div class="unactive_star_shape"></div>
+<!--                  <div class="active_star_shape"></div>-->
+                </td>
+                <td class="star_shape">
+                  <div class="unactive_star_shape"></div>
+<!--                  <div class="active_star_shape"></div>-->
+                </td>
+                <td class="star_shape">
+                  <div class="unactive_star_shape"></div>
+<!--                  <div class="active_star_shape"></div>-->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="bot">
+    <div class="desc">
+      <div class="mo_ta">Mô tả</div>
+      <div class="detail">{{product.desc}}</div>
+    </div>
+    <div class="rate_bot">
+      <div class="danh_gia">Đánh giá</div>
+      <table>
+        <tr>
+          <td class="star_shape">
+            <div class="unactive_star_shape"></div>
+            <!--                  <div class="active_star_shape"></div>-->
+          </td>
+          <td class="star_shape">
+            <div class="unactive_star_shape"></div>
+            <!--                  <div class="active_star_shape"></div>-->
+          </td>
+          <td class="star_shape">
+            <div class="unactive_star_shape"></div>
+            <!--                  <div class="active_star_shape"></div>-->
+          </td>
+          <td class="star_shape">
+            <div class="unactive_star_shape"></div>
+            <!--                  <div class="active_star_shape"></div>-->
+          </td>
+          <td class="star_shape">
+            <div class="unactive_star_shape"></div>
+            <!--                  <div class="active_star_shape"></div>-->
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="add">
+      <div class="them">Thêm vào giỏ hàng</div>
+      <div class="quantity_container">
+        <div class="so_luong">Số lượng: </div>
+        <button class="decrease_button" (click)="decrease()"><div class="decrease_inner"></div></button>
+        <div class="quantity">{{quantity}}</div>
+        <button class="increase_button" (click)="increase()"><div class="increase_inner"></div></button>
+        <button class="add_button" (click)="onAdd()">Thêm</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>

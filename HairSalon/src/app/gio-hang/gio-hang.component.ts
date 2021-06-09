@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {CartService} from "../cart.service";
 import {NgForm} from "@angular/forms";
-import {tryCatch} from "rxjs/internal-compatibility";
-import {from} from "rxjs";
 
 @Component({
   selector: 'app-gio-hang',
