@@ -1,0 +1,52 @@
+<div class="thanh-toan-container">
+  <div class="thanh-toan-detail">
+    <div class="information">
+      <div class="thong-tin">Thông Tin</div>
+      <div class="information-line"></div>
+      <div class="form-container">
+        <form class="information-form" #information='ngForm' >
+          <table>
+            <tr>
+              <td>Tên: </td>
+              <td><input class="input" ngModel name="tên"></td>
+              <div class="separate"></div>
+              <td>Email: </td>
+              <td><input class="input" ngModel name="email"></td>
+            </tr>
+            <tr>
+              <td>Địa chỉ: </td>
+              <td><input class="input" ngModel name="dia-chi"></td>
+              <div class="separate"></div>
+              <td>Số điện thoại: </td>
+              <td><input class="input" type="number" ngModel name="so-dien-thoai"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+    <div class="receipt">
+      <div class="hoa-don">Hóa Đơn</div>
+      <div class="receipt-line"></div>
+      <div class="table-container">
+        <table class="table" *ngFor="let product of productList">
+          <tr>
+            <td>
+              <div class="text">{{product.name}}</div>
+            </td>
+            <td>
+              <div class="text">{{product.price}}</div>
+            </td>
+            <td>
+              <div class="text">x{{getQuantity(product.id)}}</div>
+            </td>
+            <td>
+              <div class="text">{{product.price*getQuantity(product.id)}}</div>
+            </td>
+          </tr>
+          <tr><div class="table-line"></div></tr>
+        </table>
+      </div>
+      <div class="tong">Tổng: {{total()}}</div>
+    </div>
+  </div>
+</div>
