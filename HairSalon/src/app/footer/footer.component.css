@@ -33,12 +33,10 @@
   height: 40px;
 }
 .HS{
+  font-family: SimSun, serif;
   margin-right: 3px;
   color: #b39d66;
 
-}
-.hairSalon{
-  color: #b39d66;
 }
 .HS:after {
 

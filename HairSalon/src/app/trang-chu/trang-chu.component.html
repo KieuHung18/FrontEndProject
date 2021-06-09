@@ -5,17 +5,17 @@
       <div class="quote">Hair Salon</div>
       <div class="intro">Với tư cách là những thợ tạo mẫu tóc chuyên nghiệp tại HairSalon chúng tôi đảm bảo sẽ mang đến cho bạn một vẻ đẹp tốt nhất và bạn hoàn toàn có thể tin tưởng ở chúng tôi </div>
       <div class="intro">HairSalon mang  đến cho bạn những dịch vụ an toàn và chất lượng với những sản phẩm uy tín, trang thiết bị hiện đại, nhân viên tay nghề chuyên nghiệp cam kết ang đến cho bạn sự hài lòng về chết lượng phục vụ và dịch vụ tại HairSalon</div>
-      <button class="button">Xem dịch vụ</button>
+      <button class="button" (click)="onDichVu()">Xem dịch vụ</button>
     </div>
     <div class="separate_line"></div>
     <div class="list_container">
       <table class="table">
         <tr>
-          <td class="img_container"><div class="text">Cắt</div><input (click)="OnSanPham("c")" ) type="image" class="img" src="assets/images/Cat.png"></td>
-          <td class="img_container"><div class="text">Phục Hồi</div><input (click)="OnSanPham("p")" type="image" class="img" src="assets/images/PhucHoiToc.png"></td>
-          <td class="img_container"><div class="text">Nhộm </div><input (click)="OnSanPham("n")" type="image" class="img" src="assets/images/Nhuom.png"></td>
-          <td class="img_container"><div class="text">Duỗi</div><input (click)="OnSanPham("d")" type="image" class="img" src="assets/images/Duoi.png"></td>
-          <td class="img_container"><div class="text">Uốn</div><input (click)="OnSanPham("u")" type="image" class="img" src="assets/images/UonToc.png"></td>
+          <td class="img_container"><div class="text">Cắt</div><input (click)="onSanPham({type: 'c'})" type="image" class="img" src="assets/images/Cat.png"></td>
+          <td class="img_container"><div class="text">Phục Hồi</div><input (click)="onSanPham({type: 'p'})" type="image" class="img" src="assets/images/PhucHoiToc.png"></td>
+          <td class="img_container"><div class="text">Nhộm </div><input (click)="onSanPham({type: 'n'})" type="image" class="img" src="assets/images/Nhuom.png"></td>
+          <td class="img_container"><div class="text">Duỗi</div><input (click)="onSanPham({type: 'd'})" type="image" class="img" src="assets/images/Duoi.png"></td>
+          <td class="img_container"><div class="text">Uốn</div><input (click)="onSanPham({type: 'u'})" type="image" class="img" src="assets/images/UonToc.png"></td>
         </tr>
       </table>
     </div>

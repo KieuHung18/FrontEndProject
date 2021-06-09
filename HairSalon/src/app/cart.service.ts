@@ -70,5 +70,17 @@ export class CartService {
     localStorage.setItem('quantity', JSON.stringify(this.quantity));
     return this.items;
   }
+  setProduct(product: {id:string, name:string, desc: string, price: number, rate: number}){
+    localStorage.setItem('product_onWatch', JSON.stringify(product));
+  }
+  getProduct(){
+    return JSON.parse(<string>localStorage.getItem('product_onWatch'));
+  }
+  setType(type: string){
+    localStorage.setItem('type', type);
+  }
+  getType(): string{
+    return <string>localStorage.getItem('type')
+  }
   constructor() { }
 }

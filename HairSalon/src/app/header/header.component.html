@@ -2,7 +2,7 @@
 <div class="content">
   <div class="logo">
     <div class="image_logo"></div>
-    <a href="#">
+    <a routerLink="/trang-chu" routerLinkActive="active">
       <div class="title" >
         <div class="HS">HS|Hair Salon</div>
       </div>
@@ -11,22 +11,22 @@
   <div class="navi">
     <div class="list-item">
       <div class="item">
-        <div class="contain_item1"><a href="#"><p>Dịch Vụ</p></a>
+        <div class="contain_item1"><a routerLink="/dich-vu" routerLinkActive="active"><p>Dịch Vụ</p></a>
           <div class="down">
           <div class="down-item"></div>
           <div class="dropdown-content">
-            <a href="#">Uốn</a>
-            <a href="#">Duỗi</a>
-            <a href="#">Cắt</a>
-            <a href="#">Phục Hồi</a>
-            <a href="#">Nhuộm</a>
+            <a [routerLink]="['san-pham']" [state]="{type: 'u'}">Uốn</a>
+            <a [routerLink]="['san-pham']" [state]="{type: 'd'}">Duỗi</a>
+            <a [routerLink]="['san-pham']" [state]="{type: 'c'}">Cắt</a>
+            <a [routerLink]="['san-pham']" [state]="{type: 'p'}">Phục Hồi</a>
+            <a [routerLink]="['san-pham']" [state]="{type: 'n'}">Nhuộm</a>
           </div>
         </div>
         </div>
-        <div class="contain_item"><a href="#">GIới Thiệu</a></div>
-        <div class="contain_item"><a href="#">Liên Hệ</a></div>
-        <div class="contain_item"><a href="#">Giỏ Hàng</a></div>
-        <div class="contain_item"><a href="#">Đăng Nhập</a></div>
+        <div class="contain_item"><a routerLink="/about-us" routerLinkActive="active">GIới Thiệu</a></div>
+        <div class="contain_item"><a routerLink="/contact" routerLinkActive="active">Liên Hệ</a></div>
+        <div class="contain_item"><a routerLink="/gio-hang" routerLinkActive="active">Giỏ Hàng</a></div>
+        <div class="contain_item"><a routerLink="/dang-nhap" routerLinkActive="active">Đăng Nhập</a></div>
       </div>
     </div>
   </div>

@@ -53,20 +53,21 @@
             width: 30px;
             background-color: #441909;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-          }.active_star_shape{
-                  height: 26px;
-                  width: 26px;
-                  margin: auto;
-                  background-color: #a67f4a;
-                  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)
-                      }
+          }
+.active_star_shape{
+  height: 29px;
+  width: 29px;
+  margin: auto;
+  background-color: #a67f4a;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)
+                      }.active_star_shape:hover{background-color:white;transform: scale(1.2);transition: 0.2s}
            .unactive_star_shape{
-             height: 26px;
-             width: 26px;
+             height: 29px;
+             width: 29px;
              margin: auto;
              background-color: white;
              clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)
-           }
+           }.unactive_star_shape:hover{background-color:#a67f4a;transform: scale(1.2);transition: 0.2s}
            .separate{
              background-color: #441909;
              width: 2px;

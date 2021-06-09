@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-dang-nhap',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DangNhapComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router:Router) { }
+  onDangNhap(){
+    this.router.navigate(['thong-tin-ca-nhan'])
+  }
   ngOnInit(): void {
   }
 
