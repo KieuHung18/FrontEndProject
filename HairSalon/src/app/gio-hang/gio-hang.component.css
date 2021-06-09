@@ -1,10 +1,14 @@
+body{}
 .gio-hang-container{
   font-family: Bahnschrift, serif;
   font-weight: lighter;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  background-image: url("src/assets/images/background.png");
+  height: 835px;
+
 }
 .detail-container{
+  transform: translateY(50px);
+  background-color: white;
   width: 1120px;
   height: 735px;
   margin: auto;
@@ -30,8 +34,8 @@
    }
    .col3{
      width: 179px;
-   }.increase_button{background-color: transparent;border: none}.increase_button:hover{background-color: black;color: white;border-radius: 2px}
-    .decrease_button{background-color: transparent;border: none}.decrease_button:hover{background-color: black;color: white;border-radius: 2px}
+   }.increase_button{font-size:16px;background-color: transparent;border: none}.increase_button:hover{background-color: black;color: white;border-radius: 2px}
+    .decrease_button{font-size:16px;background-color: transparent;border: none}.decrease_button:hover{background-color: black;color: white;border-radius: 2px}
    .col4{
      width: 179px;
    }
