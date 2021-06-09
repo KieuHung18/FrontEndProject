@@ -1,430 +1,430 @@
 [
     {
         "id" : "c01",
-        "name" : "Cắt tóc ngắn nữ", 
+        "name" : "Cắt tóc ngắn nữ",
         "desc": "Gọn gàn và thoải mái tạo vẻ năng động cho những bạn nữ trẻ trung hơn tự tin hơn trong mọi hoạt động.",
         "price": 100000,
         "rate": 5
     },
     {
         "id" : "c02",
-        "name" : "Cắt tóc Bob nữ", 
+        "name" : "Cắt tóc Bob nữ",
         "desc": "Với độ dài trên vai hoặc chấm vai, tóc Bob trẻ trung là sự lựa chọn hàng đầu của những cô nàng cá tính muốn tạo điểm nhắn với đối phương.",
         "price": 130000,
         "rate": 5
     },
     {
         "id" : "c03",
-        "name" : "Tóc nữ ngang vai", 
+        "name" : "Tóc nữ ngang vai",
         "desc": "Cá tính và năng động là đặc trưng của kiểu tóc đẹp này. Mang đến sự thoải mái, tự tin khoe cá tính riêng nhất. Kiểu tóc giúp loại bỏ phần hư tổn ở ngọn giúp phục hồi nhanh hơi.",
         "price": 110000,
         "rate": 5
     },
     {
         "id" : "c04",
-        "name" : "Tóc nữ lửng thẳng", 
+        "name" : "Tóc nữ lửng thẳng",
         "desc": "Tóc lửng thẳng không quá dài hay quá ngắn được nhiều bạn nữ ưa chuộng và trưng diện thường xuyên. Kiểu tóc tạo nên vẻ đẹp thanh tao người phụ nữ.",
         "price": 100000,
         "rate": 4
     },
     {
         "id" : "c05",
-        "name" : "Tóc lửng tỉa layer nữ", 
+        "name" : "Tóc lửng tỉa layer nữ",
         "desc": " Tóc lửng ngang lưng layer giúp bạn trở nên xinh xắn, loại bỏ đi những tóc xơ, chẻ ngọn và trở nên quyến rũ thanh lịch.",
         "price": 150000,
         "rate": 4
     },
     {
         "id" : "c06",
-        "name" : "Tóc dài tỉa layer nữ", 
+        "name" : "Tóc dài tỉa layer nữ",
         "desc": " Mái tóc dài tỉa layer giúp tạo nên hiệu ứng tầng lớp bồng bềnh cho mái tóc, một diện mạo rạng ngời và nổi bật ở mọi góc độ, là xu hướng dẫn đầu của phái đẹp.",
         "price": 110000,
         "rate": 5
     },
     {
         "id" : "c07",
-        "name" : "Tóc mái thưa nữ", 
+        "name" : "Tóc mái thưa nữ",
         "desc": " Với những nàng có vầng trán hơi dô thì tóc ngang vai mái thưa là sự lựa chọn hàng đầu. Tạo khác biệt nổi bật với kiểu tóc đầy cá tính.",
         "price": 120000,
         "rate": 5
     },
     {
         "id" : "c08",
-        "name" : "Tóc không mái nữ", 
+        "name" : "Tóc không mái nữ",
         "desc": "Mái tóc không mái sẽ giúp bạn khoe trọn những đường nét thanh tú. Hoặc đơn giản là che bớt đi những nhược điểm trên gương mặt.",
         "price": 120000,
         "rate": 4
     },
     {
         "id" : "c09",
-        "name" : "Tóc  mái bằng nữ", 
+        "name" : "Tóc  mái bằng nữ",
         "desc": "Tóc mái bằng  thích hợp nhất với những nàng mặt tròn. Tuy nhiên với những nàng mặt dài lại vô cùng cá tính và thu hút.",
         "price": 130000,
         "rate": 5
     },
     {
         "id" : "c10",
-        "name" : "Cắt tóc mái xéo nữ", 
+        "name" : "Cắt tóc mái xéo nữ",
         "desc": "Tóc mái xéo có thể kết hợp với nhiều kiểu tóc khác nhau. Đặc biệt cực kì phù hợp với những nàng mặt hơi tròn một chút.",
         "price": 150000,
         "rate": 5
     },
     {
         "id" : "c11",
-        "name" : "Tóc mái ngố nữ", 
+        "name" : "Tóc mái ngố nữ",
         "desc": "Kiểu tóc này luôn được các bạn nữ sinh tận dụng hết sức vì luôn tạo cảm giác đáng yêu và thân thiện. Mang đến sự dễ thương bất ngờ đến người đối diện",
         "price": 140000,
         "rate": 4
     },
     {
         "id" : "c12",
-        "name" : "Tóc mái ngố vòng cung nữ", 
+        "name" : "Tóc mái ngố vòng cung nữ",
         "desc": "Kiểu tóc mái ngố nhưng với kiểu dáng khác là hình vòng cung. Kiểu tóc mái này rất được lòng các ngôi sao hạng A bởi sự mới lạ nhưng vô cùng trẻ trung.",
         "price": 140000,
         "rate": 5
     },
     {
         "id" : "c13",
-        "name" : " Tóc nam ngắn", 
+        "name" : " Tóc nam ngắn",
         "desc": " Đây là kiểu tóc vừa mát mẻ gọn gàng, dễ dàng chăm sóc vừa giúp khẳng định được phong cách. Tuy giản dị nhưng mức nam tính vượt trội.",
         "price": 100000,
         "rate": 5
     },
     {
         "id" : "c14",
-        "name" : "Tóc layer nam", 
+        "name" : "Tóc layer nam",
         "desc": "Tóc được cắt tỉa layer so le mang đến cho các bạn nam một diện mạo hoàn hảo mới lạ và thoải mái hơn trong những ngày hè nắng nóng.",
         "price": 120000,
         "rate": 5
     },
     {
         "id" : "c15",
-        "name" : "Tóc mohican", 
+        "name" : "Tóc mohican",
         "desc": "Đây là kiểu tóc nam cổ điển với 2 bên mai và gáy được cạo trắng, phần tóc còn lại vuốt dựng mang đến cho bạn sự năng động, tự tin và thể hiện được phong cách của mình.",
         "price": 140000,
         "rate": 4
     },
     {
         "id" : "c16",
-        "name" : "Tóc undercut", 
+        "name" : "Tóc undercut",
         "desc": " Kiểu tóc nam này, tóc của bạn sẽ được cắt ngắn 2 bên và cắt cao ở phía đằng sau. Kiểu tóc này sẽ giúp các bạn nam trở nên nam tính và ấn tượng hơn.",
         "price": 150000,
         "rate": 5
     },
     {
         "id" : "c17",
-        "name" : "Tóc nam 7/3", 
+        "name" : "Tóc nam 7/3",
         "desc": "Với đặc điểm được cắt sát gọn 2 bên với phần mái để dài được chia ngôi theo tỉ lệ 7/3 , kiểu tóc nam này sẽ gương mặt của bạn thêm cân đối, hài hòa, tôn lên vẻ nam tính quyền lực.",
         "price": 120000,
         "rate": 4
     },
     {
         "id" : "c18",
-        "name" : "Tóc nam 2 mái", 
+        "name" : "Tóc nam 2 mái",
         "desc": "Kiểu tóc nam này khá đơn giản, không yêu cầu chăm sóc quá nhiều những vẫn giúp bạn có một diện mạo chỉnh chu và lịch lãm, mang đến xu hướng dẫn đầu.",
         "price": 150000,
         "rate": 5
     },
     {
         "id" : "c19",
-        "name" : "Tóc tatoo", 
+        "name" : "Tóc tatoo",
         "desc": "Đây là kiểu tóc kẻ highlight/kẻ vạch giúp bạn trở nên phong trần, đẹp trai hơn, gây ấn tượng người đối diện từ cái nhìn đầu tiên.",
         "price": 200000,
         "rate": 4
     },
     {
         "id" : "c20",
-        "name" : "Tóc side part", 
+        "name" : "Tóc side part",
         "desc": "Đây là kiểu tóc nam đẹp phù hợp với mọi gương mặt, giúp làm tăng sự nam tính và sự mềm mại cho tổng thể khuôn mặt. Từng đường nét khuôn mặt sẽ được tôn lên một cách đầy nam tính.",
         "price": 120000,
         "rate": 5
     },
     {
         "id" : "c21",
-        "name" : "Tóc nam 6/4", 
+        "name" : "Tóc nam 6/4",
         "desc": "Phần mái được chia theo tỷ lệ 6/4, có thể biến tấu với nhiều phong cách như duỗi thẳng tự nhiên, trẻ trung, tăng vẻ nam tính lịch lãm của phái mạnh.",
         "price": 120000,
         "rate": 5
     },
     {
         "id" : "c22",
-        "name" : "Tóc nam SPIKY", 
+        "name" : "Tóc nam SPIKY",
         "desc": "Để tạo kiểu cắt sát tóc hai bên tạo điểm nhấn nhưng vẫn giữ nếp tóc đẹp như sao hàn và bụi bặm. Phong cách khác biệt khẳng định cá tính riêng.",
         "price": 100000,
         "rate": 4
     },
     {
         "id" : "c23",
-        "name" : " Tóc two block", 
+        "name" : " Tóc two block",
         "desc": "Với các kiểu tóc two block là kiểu tóc rất dễ dàng cho bạn chăm sóc. Kiểu tóc còn tạo cảm giác luôn thoải mái và tự tin với mọi người xung quanh.",
         "price": 120000,
         "rate": 5
     },
     {
         "id" : "c24",
-        "name" : "Tóc nam ngắn để mái", 
+        "name" : "Tóc nam ngắn để mái",
         "desc": "Tóc nam mạnh mẽ tóc ngắn cho mặt vuông tròn cạo đôi bên để mái xéo thường phục vụ các quý ông công sở, làm việc ở văn phòng. Vẻ thư sinh lịch lãm sẽ lôi cuống mọi ánh nhìn.",
         "price": 120000,
         "rate": 4
     },
     {
         "id" : "c25",
-        "name" : "Tóc nam Comma Hair", 
+        "name" : "Tóc nam Comma Hair",
         "desc": "Kiểu tóc Comma Hair ngắn gọn, mát mẻ. Giúp các chàng luôn đẹp trai và tự tin với phong cách lãng tử. Ngoài ra đây còn là kiểu tóc xu hướng của mọi người hướng đến. ",
         "price": 100000,
         "rate": 4
     },
     {
         "id" : "c26",
-        "name" : "Tóc nam cắt Gáy ngắn", 
+        "name" : "Tóc nam cắt Gáy ngắn",
         "desc": " Dành cho những chàng công sở, lịch lãm, thanh tao và nhã nhặn thôi, không thể nào toát lên chất “men”. Sự phá cách đầy cá tính và phong cách.",
         "price": 140000,
         "rate": 4
     },
     {
         "id" : "c27",
-        "name" : "Tóc đầu nấm ", 
+        "name" : "Tóc đầu nấm ",
         "desc": "Kiểu đầu này khá ngắn, đơn giản, như kiểu mái ngố, tuy nhiên lại không hoàn toàn như thế vì hai bên side được cắt ngắn, tạo cảm giác thoáng mát hơn.",
         "price": 120000,
         "rate": 4
     },
     {
         "id" : "c28",
-        "name" : "Tóc moi nam kiểu Mullet", 
+        "name" : "Tóc moi nam kiểu Mullet",
         "desc": "Bạn thích một trải nghiệm khác biệt, với bản sắc riêng, thì có thể chọn tóc Mullet cắt móc nhé. Kiểu tóc là lựa chọn số một cho những chàng trai yêu khác biệt",
         "price": 140000,
         "rate": 5
     },
     {
         "id" : "c29",
-        "name" : "Tóc nam Mohawk", 
+        "name" : "Tóc nam Mohawk",
         "desc": " Đây là mẫu tóc thường thấy ở các anh chàng đến từ các nước Châu Âu, Châu Mỹ bởi họ thường hay thể hiện cá tính riêng, táo bạo, theo chủ nghĩa cá nhân.",
         "price": 140000,
         "rate": 5
     },
     {
         "id" : "c30",
-        "name" : "Tóc nam 3 phân", 
+        "name" : "Tóc nam 3 phân",
         "desc": "Là phong cách tạo kiểu tóc không quá phức tạp nhưng vẫn được số đông nam giới trẻ trung quan tâm. Đối với nam giới nào yêu thích sự đơn giản, không cần quá cầu kỳ về mái tóc khi bước ra ngoài thì những “quả đầu đinh” đầy sức nam tính này là sự lựa chọn nên tham khảo.",
         "price": 100000,
         "rate": 5
     },
     {
         "id" : "p01",
-        "name" : "dưỡng tóc Raip Argan Hair Oil", 
+        "name" : "Argan Hair Oil",
         "desc": "Tinh dầu Argan Raip rất được lòng chị em phụ nữ chúng mình. Hãng này có tất cả 4 mùi tương ứng với 4 màu hồng, xanh dương, tím, vàng. Mỗi mùi có đều có đặc trưng riêng phù hợp với sở thích của các cô gái khác nhau.",
         "price": 190000,
         "rate": 4
     },
     {
         "id" : "p02",
-        "name" : "Tinh dầu dưỡng tóc Cocoesl Noir", 
+        "name" : "Cocoesl Noir",
         "desc": "Tinh dầu Coco có thành phần mật ong tự nhiên giúp tái tạo tóc và phục hồi những phần hư tổn. Ngoài ra, tinh dầu còn khiến mái tóc của chị em chúng mình trở nên bồng bềnh và bóng mượt tự nhiên.",
         "price": 200000,
         "rate": 5
     },
     {
         "id" : "p03",
-        "name" : "Phục hồi tóc Innisfree Camellia Essential Hair Oil", 
+        "name" : "Innisfree Camellia Essential",
         "desc": "Innisfree là một nhãn hiệu mỹ phẩm quá quen thuộc và được yêu  với các chị em. Loại dưỡng tóc dòng này của Innisfree được chiết xuất từ dầu hoa trà và hoa trà lên men cung cấp dưỡng chất chăm sóc tóc. Sử dụng dài lâu, tinh dầu có tác dụng chăm sóc những phần tóc hư tổn do uốn, nhuộm… Đồng thời giúp tóc chắc khỏe và giảm gàu hiệu quả.",
         "price": 200000,
         "rate": 5
     },
     {
         "id" : "p04",
-        "name" : "Tinh dầu dưỡng tóc Aurane Softliss Fantastic Repair hair", 
+        "name" : "Aurane",
         "desc": "Được chiết xuất từ 2 loại tinh dầu nổi tiếng là argan và macadamia, thành phần dưỡng tóc thẩm thấu nhanh vào tóc. Điều này giúp tóc bóng mượt và tạo một lớp bảo vệ tránh các tác nhân gâu hại từ môi trường.",
         "price": 190000,
         "rate": 4
     },
     {
         "id" : "p05",
-        "name" : "Tinh dầu dưỡng tóc Nashi Argan Oil", 
+        "name" : "Nashi Argan",
         "desc": "Tinh dầu Nashi Argan được chiết xuất từ thành phần dưỡng tóc nổi tiếng, được ép từ quả Argania Spinosa. Thành phần này giúp nuôi dưỡng sâu bên trong, giúp tóc mềm đẹp và bóng mượt.",
         "price": 200000,
         "rate": 5
     },
     {
         "id" : "p06",
-        "name" : "Tinh dầu dưỡng tóc Moroccanoil Treatment", 
+        "name" : "Moroccanoil",
         "desc": "Tinh dầu Moroccanoil Treatment được chiết xuất từ thành phần tự nhiên không chứa cồn. Tinh dầu có tác dụng dưỡng tóc mềm mượt, chống xơ rối và bảo vệ tóc luôn chắc khỏe.",
         "price": 180000,
         "rate": 4
     },
     {
         "id" : "p07",
-        "name" : "Tinh dầu dưỡng tóc Goldwell Elixir", 
+        "name" : "Goldwell Elixir",
         "desc": "Sản phẩm tinh dầu này có thành phần giàu vitamin E giúp cấp ẩm và phục hồi tóc nhanh chóng. Tnh dầu đặc biệt hiệu quả với những loại tóc xơ rối. Bởi chúng giúp tạo độ bóng sáng, bồng bềnh và mượt mà như lụa, giúp tóc có một vẻ đẹp tự nhiên. ",
         "price": 170000,
         "rate": 5
     },
     {
         "id" : "p08",
-        "name" : "Tinh dầu dưỡng tóc Loreal mythic Oil", 
+        "name" : "Loreal Mythic Oil",
         "desc": "Thương hiệu nổi tiếng L’Oreal đến từ Pháp chuyên cung cấp những sản phẩm chăm sóc da, make up, bên canhj đó còn có những sản phẩm chăm sóc tóc cực kì tốt. Trong đó không thể kể đến tinh dầu dưỡng tóc L’Oreal mythic oil và là sự lựa chọn hàng đầu cho phái đẹp. ",
         "price": 200000,
         "rate": 4
     },
     {
         "id" : "p09",
-        "name" : "Tinh dầu Argan Wella SP luxe Oil", 
+        "name" : "Argan Wella SP luxe",
         "desc": "Tên thương hiệu nổi tiếng về chăm sóc tóc ở Đức Wella. Tinh dầu Argan luxe Oil là một sản phẩm được ua thích nhất ở đây. Thành phần chính từ các tinh dầu quý giá: tinh dầu Argan rất cần thiết và tóc cho mái tóc, hạnh nhân mang lại một mái tóc mềm mại nhưng khỏe khoắn.",
         "price": 190000,
         "rate": 5
     },
     {
         "id" : "p10",
-        "name" : "Tinh dầu dưỡng tóc Mise en Scene", 
+        "name" : "Mise en Scene",
         "desc": "Một thương hiệu chăm sóc tóc đến từ Hàn Quốc – Mise en Scene. Một sự lựa chọn lý tưởng dành cho các nàng đang trong quá trình phục hồi tóc. Với thành phần tinh dầu Argan chứa lượng lớn Vitamin E là thành phần giúp tóc chắc khỏe.",
         "price": 200000,
         "rate": 4
     },
     {
         "id" : "u01",
-        "name" : "Tóc uốn cho mặt tròn nữ", 
+        "name" : "Tóc uốn cho mặt tròn nữ",
         "desc": "Là kiểu tóc mới được rất nhiều các bạn nữ yêu thích. Kiểu tóc uốn này không chỉ giúp các bạn nhìn trẻ trung, năng động hơn mà còn tôn lên vẻ đẹp của khuôn mặt. chắc chắn sẽ là xu hướng mới mà các bạn nữ không thể nào bỏ qua, đang thịnh hành nhất hiện nay.",
         "price": 160000,
         "rate": 5
     },
     {
         "id" : "u02",
-        "name" : "Tóc uốn dài", 
+        "name" : "Tóc uốn dài",
         "desc": "Là một trong những xu hướng được giới trẻ yêu thích gần đây, kiểu tóc uốn đẹp này giúp mang đến vẻ ngoài trẻ trung, năng động. Với những lọn tóc xoăn nhẹ nhàng, tạo độ bồng bềnh tự nhiên cho mái tóc, phù hợp với rất nhiều loại khuôn mặt, vì thế đang được rất nhiều các chị em ưa thích.",
         "price": 150000,
         "rate": 5
     },
     {
         "id" : "u03",
-        "name" : "Tóc uốn đuôi", 
+        "name" : "Tóc uốn đuôi",
         "desc": "Không mất quá nhiều thời gian chăm sóc, lại phù hợp với nhiều khuôn mặt và tính cách, vì vậy tóc uốn đã trở thành xu hướng tóc “phải trải nghiệm” của các cô nàng vào mùa hè năm nay, cực kỳ cá tính được những tín đồ tóc ngắn áp dụng. sao Hàn cũng rất ưa chuộng bởi chúng làm nổi bật khuôn mặt mà chẳng cần phải càu kỳ quá nhiều.",
         "price": 160000,
         "rate": 4
     },
     {
         "id" : "u04",
-        "name" : "Tóc uốn dễ thương", 
+        "name" : "Tóc uốn dễ thương",
         "desc": "Là một trong những kiểu đang được nhiều người với nhiều lứa tuổi ưa chuộng nhất, chúng đã nhanh chóng trở thành xu hướng thời trang tóc. Có nhiều người cho rằng, tóc xoăn sẽ khiến bạn già đi so với tuổi thực của mình thì chọn kiểu tóc uốn sẽ là một phép chứng minh điều ngược lại khi nó luôn lấy lòng phái đẹp ở mọi lứa tuổi.",
         "price": 130000,
         "rate": 5
     },
     {
         "id" : "u05",
-        "name" : "Tóc uốn mì tôm nhẹ", 
+        "name" : "Tóc uốn mì tôm nhẹ",
         "desc": "Phong cách hàn quốc đang hot, các bạn gái không thể bỏ qua đâu đấy. Xu hướng tóc uốn 2020 ngày càng được giới trẻ yêu thích với nhiều biến tấu đa dạng nhưng được yêu thích hơn cả vẫn là kiểu hàn quốc với những lọn tóc bồng bềnh cuốn hút. đây là kiểu tóc phù hợp với nhiều cách để tóc mái, bạn có thể chọn mái xéo, mái thưa hay mái dài…tùy sở thích cho kiểu tóc này.",
         "price": 150000,
         "rate": 5
     },
     {
         "id" : "u06",
-        "name" : "Tóc uốn gợn sóng", 
+        "name" : "Tóc uốn gợn sóng",
         "desc": "Với những biến tấu độc đáo như sóng nhỏ, sóng to, sóng ngắn hoặc sóng dài. Đây sẽ là gợi ý cho bạn thỏa thích lựa chọn theo phong cách riêng của mình. Kiểu tóc uốn đẹp và quyến rũ này nên kết hợp với những tông màu tóc nhuộm sáng để tránh bị già hơn tuổi.",
         "price": 170000,
         "rate": 5
     },
     {
         "id" : "u07",
-        "name" : "Tóc uốn hàn quốc", 
+        "name" : "Tóc uốn hàn quốc",
         "desc": "Kiểu tóc uốn đẹp tự nhiên phong cách Hàn Quốc là xu hướng thịnh hành được các cô nàng hot girl yêu thích lựa chọn cho phong cách của bản thân. luôn luôn là kiểu tóc được các nàng lựa chọn cho bản thân và không bao giờ có dấu hiệu lỗi mốt.",
         "price": 170000,
         "rate": 4
     },
     {
         "id" : "u08",
-        "name" : "Tóc uốn đuôi lọn nhỏ", 
+        "name" : "Tóc uốn đuôi lọn nhỏ",
         "desc": "Với những cô nàng có khuôn mặt tròn, to thì sẽ là biện pháp cứu nguy cho khuôn mặt vô cùng hiệu quả. Có thể nói, là kiểu tóc đang rất được yêu thích. Không chỉ giúp cho các cô nàng có mái tóc thưa ăn gian “độ dày” mà kiểu tóc uốn đẹp mắt này còn giúp các cô nàng có khuôn mặt tròn, bầu trở nên thon gọn hơn. ",
         "price": 140000,
         "rate": 4
     },
     {
         "id" : "u09",
-        "name" : "Tóc uốn cụp", 
+        "name" : "Tóc uốn cụp",
         "desc": "Nếu bạn đang sở hữu mái tóc dài truyền thống nhưng chưa sẵn sàng để cắt tóc, tại sao không thử ngay kiểu này. Với mái tóc này bạn vẫn giữ được nét nữ tính  những cũng không kém phần cá tính.",
         "price": 150000,
         "rate": 5
     },
     {
         "id" : "u10",
-        "name" : "Tóc uốn cúp đuôi", 
+        "name" : "Tóc uốn cúp đuôi",
         "desc": "Mái tóc dài sẽ khiến bạn già đi cả chục tuổi, vì thế, hãy thử thay đổi ngoại hình bằng mái tóc uốn ngọt ngào này. Việc tạo những lọn tóc nhẹ sẽ giúp cho mái tóc của bạn trở nên bồng bềnh, nhẹ nhàng và lôi cuốn hơn rất nhiều. chiều sâu gương mặt cũng vì thế mà được khắc họa một cách tinh tế và rõ nét nhất.",
         "price": 160000,
         "rate": 5
     },
     {
         "id" : "u11",
-        "name" : "Tóc uốn gợn sóng nhẹ", 
+        "name" : "Tóc uốn gợn sóng nhẹ",
         "desc": " Nếu bạn đang sở hữu một mái tóc dài nhàm chán thì tại sao không tự thay đổi cho mình một vẻ ngoài cực lạ lẫm và đầy lôi cuốn hơn với mẫu tóc được uốn bồng bềnh và gợi sóng. Tôi tin chắc rằng khi sở hữu kiểu tóc uốn đẹp thời thượng và sành điệu.",
         "price": 140000,
         "rate": 5
     },
     {
         "id" : "u12",
-        "name" : "Tóc uốn kiểu tây", 
+        "name" : "Tóc uốn kiểu tây",
         "desc": "Trang điểm cho mặt tròn giúp khuôn mặt thon gọn hơn, nhưng bạn có biết rằng 1 kiểu tóc phù hợp có tác dụng làm thay đổi hoàn toàn diện mạo của bạn. mái tóc uốn đẹp tác dụng lên toàn bộ khuôn mặt nên nó rất hiệu quả trong việc “thu nhỏ” khuôn mặt, nó tạo ra khuôn mặt thon gọn và sắc nét hơn bất cứ cách thay đổi nào khác.",
         "price": 150000,
         "rate": 4
     },
     {
         "id" : "u13",
-        "name" : "Tóc uốn không mái", 
+        "name" : "Tóc uốn không mái",
         "desc": "Kiểu tóc uốn bồng bềnh này luôn gợi được vẻ nữ tính và nhẹ nhàng cho các bạn gái. bạn có thể dễ dàng nhuộm với đủ các màu tóc từ tone trầm đến tone rực rỡ. Đặc biệt các màu nhuộm thời trang như nâu trầm, cam là khá phù hợp cho kiểu tóc hấp dẫn này. những gợn sóng nhấp nhô nhẹ nhàng trên mái tóc giúp các thiếu nữ của chúng ta mang một nét đẹp dịu dàng, nữ tính.",
         "price": 170000,
         "rate": 5
     },
     {
         "id" : "u14",
-        "name" : "Tóc uốn ombre", 
+        "name" : "Tóc uốn ombre",
         "desc": "Ngoài cách trang điểm, một kiểu tóc uốn phù hợp sẽ giúp khuôn mặt của các bạn trở nên thon gọn hơn. Và chắc chắn rằng với các kiểu tóc này, các bạn sẽ không cần phải lo lắng đến vấn đề tân trang lại nhan sắc hàng ngày để khuôn mặt của bạn trở nên nhỏ nhắn hơn cho mà xem.",
         "price": 180000,
         "rate": 5
     },
     {
         "id" : "u15",
-        "name" : "Tóc uốn lượn", 
+        "name" : "Tóc uốn lượn",
         "desc": "Theo phong cách Hàn Quốc ngày càng được nhiều chị em ưa thích. Khi đã tạo thành một trào lưu thời trang thì hiển nhiên kiểu tóc này chắc chắn phải có một dấu ấn đặc biệt nào đó. Khác với các kiểu tóc uốn theo phong cách cổ điển châu Âu trong các bộ phim điện ảnh Hollywood.",
         "price": 160000,
         "rate": 5
     },
     {
         "id" : "u16",
-        "name" : "Tóc uốn vểnh", 
+        "name" : "Tóc uốn vểnh",
         "desc": "Được các sao Hàn lăng xê nhiệt tình, cũng dễ hiểu vì sao kiểu tóc uốn này lại được yêu thích nhiều đến thế. “Sức mạnh” của mái thưa đã được chứng minh qua rất nhiều gương mặt từ người nổi tiếng đến “thường dân”.",
         "price": 160000,
         "rate": 4
     },
     {
         "id" : "u17",
-        "name" : "Tóc uốn mái dài", 
+        "name" : "Tóc uốn mái dài",
         "desc": "Là mái tóc lý tưởng để các chị em phô được nét đẹp của khuôn mặt mình. Tuy nhiên, làm cả đầu thì các cô nàng có khuôn mặt dài và nhỏ sẽ trông to và tròn hơn.",
         "price": 170000,
         "rate": 4
     },
     {
         "id" : "u18",
-        "name" : "Tóc uốn tự nhiên", 
+        "name" : "Tóc uốn tự nhiên",
         "desc": "Những lọn xoăn bồng bềnh luôn tạo được sức hút với người ấy của bạn nhưng đôi khi một chút màu sắc tươi tắn như nâu hạt dẻ hay thậm chí ánh đỏ cherry sẽ khiến bạn trở nên rực rỡ và nổi bật hơn đấy.",
         "price": 150000,
         "rate": 5
     },
     {
         "id" : "u19",
-        "name" : "Tóc uốn layer nữ", 
+        "name" : "Tóc uốn layer nữ",
         "desc": "Đây chính là lý do khiến kiểu tóc uốn lại được lựa chọn nhiều nhất đầu năm 2020. che đi phần gò má cao và tạo nên khuôn mặt trông thon nhỏ hơn hẳn. Nếu muốn trẻ trung hơn, hãy nhuộm thêm màu nâu rêu.",
         "price": 150000,
         "rate": 4
     },
     {
         "id" : "u20",
-        "name" : "Tóc uốn ở đuôi", 
+        "name" : "Tóc uốn ở đuôi",
         "desc": "Chắc chắn các đấng mày râu phải ngỡ ngàng vì vẻ đẹp ngọt ngào của bạn cùng kiểu tóc uốn đuôi. Kiểu tóc được rất nhiều sao Hàn sử dụng chủ yếu làm xoăn toàn bộ tóc, tạo mái và đánh rối một cách khéo léo.",
         "price": 160000,
         "rate": 5
-    },
-    
+    }
 
 
 
 
 
 
-  
+
+
 ]
