@@ -12,7 +12,7 @@
         <tr class="bot" *ngFor="let product of productList | paginate: { itemsPerPage: 3, currentPage: p }">
           <td class="col1">
             <button class="remove_button" (click)="remove(product.id)">x</button><br>
-            <img class="product_img" src="assets/images/tempolary.png">
+            <img class="product_img" src="assets/Data/{{product.id}}.png">
             <div class="product_name">{{product.name}}</div><br>
           </td>
           <td class="col2">{{product.price}}</td>

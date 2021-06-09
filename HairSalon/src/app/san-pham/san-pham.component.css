@@ -36,7 +36,6 @@
   transform: translateY(4px);
 }
 .product_table{
-
   transform: translate(50px,45px);
 }.table{ width: 1366px;}
 .product_top{
@@ -55,16 +54,14 @@
   width: 210px;
   height: 350px;
   border: 1px solid #dfd0bd;
-}.product_img{
-  padding-top: 10px;
- }
+}.img_container{width: 185px;height: 235px; padding-top: 10px;margin: auto}
  .watch_button{
    font-weight: bold;
    color: white;
    border: none;
    width: 185px;
    height: 35px;
-   transform: translateY(-39px);
+   transform: translateY(-35px);
    background-color: rgba(0,0,0,0.3);
    text-align: left;
  }.watch_button:hover{background-color: rgba(0,0,0,0.1);}

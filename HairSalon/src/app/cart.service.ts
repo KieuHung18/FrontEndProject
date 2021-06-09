@@ -16,6 +16,16 @@ export class CartService {
         this.increaseQuantity(product.id);
     }
   }
+  addToCarts(product: {id:string, name:string, desc: string, price: number, rate: number},qantity:number) {
+    if(this.items.find(d => d.id==product.id)==undefined){
+      this.items.push(product);
+      localStorage.setItem('items', JSON.stringify(this.items));
+      this.quantity.push(qantity);
+      localStorage.setItem('quantity', JSON.stringify(this.quantity));
+    }else{
+      this.increaseQuantitys(product.id,qantity);
+    }
+  }
   load(){
     this.quantity = JSON.parse(<string>localStorage.getItem('quantity'));
   }
@@ -26,6 +36,11 @@ export class CartService {
   increaseQuantity(id: String){
     let index= this.items.findIndex(d => d.id==id);
     this.quantity[index]++;
+    localStorage.setItem('quantity', JSON.stringify(this.quantity));
+  }
+  increaseQuantitys(id: String,qantity:number){
+    let index= this.items.findIndex(d => d.id==id);
+    this.quantity[index]+=qantity;
     localStorage.setItem('quantity', JSON.stringify(this.quantity));
   }
   decreaseQuantity(id: string){
