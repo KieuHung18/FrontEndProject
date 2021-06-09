@@ -98,8 +98,10 @@ a{
   height: 10px;
   border: 6px solid;
 
-}
-
+}.down-item:hover{
+  transform: scale(1.5) translateY(2px);
+  transition: 0.2s;
+ }
 .dropdown-content {
   display: none;
   position: absolute;
@@ -122,4 +124,5 @@ a{
 
 .down:hover .dropdown-content {
   display: block;
+
 }

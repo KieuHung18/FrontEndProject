@@ -12,8 +12,11 @@ export class TrangChuComponent implements OnInit {
   onWatch(value: {id:string, name:string, desc: string, price: number, rate: number}){
     this.router.navigateByUrl('chi-tiet',{state: value})
   }
-  onSanPham(id:string){
-    // this.router.navigateByUrl('chi-tiet',{state: id})
+  onSanPham(value:{type:string}){
+    this.router.navigateByUrl('san-pham',{state: value})
+  }
+  onDichVu(){
+    this.router.navigate(['dich-vu'])
   }
   ngOnInit(): void {
   }
