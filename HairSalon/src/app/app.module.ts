@@ -19,6 +19,7 @@ import { ThanhToanComponent } from './thanh-toan/thanh-toan.component';
 import { ChiTietSanPhamComponent } from './chi-tiet-san-pham/chi-tiet-san-pham.component';
 import {RouterRoutingModule} from "./router/router-routing.module";
 import { TrangChuComponent } from './trang-chu/trang-chu.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { TrangChuComponent } from './trang-chu/trang-chu.component';
     ThanhToanComponent,
     ChiTietSanPhamComponent,
     TrangChuComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule, NgxPaginationModule, FormsModule,RouterRoutingModule
