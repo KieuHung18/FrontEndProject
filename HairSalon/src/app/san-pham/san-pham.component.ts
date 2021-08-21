@@ -4,7 +4,7 @@ import products from 'src/assets/data/products.json';
 import {CartService} from "../cart.service";
 import {ActivatedRoute, Router} from "@angular/router";
 
-function  filterType(codeType: string): {id:string, name:string, desc: string, price: number, rate: number}[]{
+function  filterType(codeType: string|null): {id:string, name:string, desc: string, price: number, rate: number}[]{
   let result: {id:string, name:string, desc: string, price: number, rate: number}[]=products;
   return result.filter((x)=>x.id.substring(0,1) == codeType);
 };
@@ -29,12 +29,15 @@ export class SanPhamComponent implements OnInit {
     this.cartService.addToCart(product);
     window.alert('Sản phẩm '+product.name+' đã được thêm vào giỏ hàng');
   }
-  onWatch(value: {id:string, name:string, desc: string, price: number, rate: number}){
-    this.router.navigateByUrl('chi-tiet',{state: value})
+  onWatch(id: string){
+    this.router.navigateByUrl('chi-tiet/'+id);
   }
   ngOnInit(): void {
-    if(history.state.type!=''&&history.state.type!=undefined){this.productList=filterType(history.state.type);this.cartService.setType(history.state.type)}
-    else{this.productList=filterType(this.cartService.getType())}
+    if(filterType(this.route.snapshot.paramMap.get("type")).length==0){
+      this.router.navigateByUrl('/404');
+    }else{
+      this.productList=filterType(this.route.snapshot.paramMap.get("type"));
+    }
   }
 
 }

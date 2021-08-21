@@ -38,9 +38,9 @@ export class CartService {
     this.quantity[index]++;
     localStorage.setItem('quantity', JSON.stringify(this.quantity));
   }
-  increaseQuantitys(id: String,qantity:number){
+  increaseQuantitys(id: String,quantity:number){
     let index= this.items.findIndex(d => d.id==id);
-    this.quantity[index]+=qantity;
+    this.quantity[index]+=quantity;
     localStorage.setItem('quantity', JSON.stringify(this.quantity));
   }
   decreaseQuantity(id: string){
@@ -69,18 +69,6 @@ export class CartService {
     localStorage.setItem('items', JSON.stringify(this.items));
     localStorage.setItem('quantity', JSON.stringify(this.quantity));
     return this.items;
-  }
-  setProduct(product: {id:string, name:string, desc: string, price: number, rate: number}){
-    localStorage.setItem('product_onWatch', JSON.stringify(product));
-  }
-  getProduct(){
-    return JSON.parse(<string>localStorage.getItem('product_onWatch'));
-  }
-  setType(type: string){
-    localStorage.setItem('type', type);
-  }
-  getType(): string{
-    return <string>localStorage.getItem('type')
   }
   constructor() { }
 }

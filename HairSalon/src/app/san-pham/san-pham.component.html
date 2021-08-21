@@ -12,7 +12,7 @@
           <div class="img_container">
             <img class="product_img" src="assets/Data/{{product.id}}.png">
           </div>
-            <button class="watch_button" (click)="onWatch(product)">Xem chi tiết</button>
+            <button class="watch_button" (click)="onWatch(product.id)">Xem chi tiết</button>
           <div class="product_name">{{product.name}}</div><br>
           <div class="product_price">{{product.price}}</div><br>
             <button class="add_button" (click)="onAdd(product)">Thêm vào giỏ</button>
@@ -21,7 +21,7 @@
           <div class="img_container">
           <img class="product_img" src="assets/Data/{{product.id}}.png">
           </div>
-          <button class="watch_button" (click)="onWatch(product)">Xem chi tiết</button>
+          <button class="watch_button" (click)="onWatch(product.id)">Xem chi tiết</button>
           <div class="product_name">{{product.name}}</div><br>
           <div class="product_price">{{product.price}}</div><br>
           <button class="add_button" (click)="onAdd(product)">Thêm vào giỏ</button>
