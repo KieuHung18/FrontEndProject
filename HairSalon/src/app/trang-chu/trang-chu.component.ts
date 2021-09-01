@@ -9,8 +9,8 @@ import {ActivatedRoute, Router} from "@angular/router";
 export class TrangChuComponent implements OnInit {
   public products:{id:string, name:string, desc: string, price: number, rate: number}[] = [products[0],products[1],products[2]];
   constructor(private router: Router) { }
-  onWatch(value: {id:string, name:string, desc: string, price: number, rate: number}){
-    this.router.navigateByUrl('chi-tiet',{state: value})
+  onWatch(id: string){
+    this.router.navigateByUrl('chi-tiet/'+id);
   }
   onSanPham(value:{type:string}){
     this.router.navigateByUrl('san-pham',{state: value})

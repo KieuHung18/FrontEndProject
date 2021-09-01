@@ -21,6 +21,7 @@ function  search(name: string): {id:string, name:string, desc: string, price: nu
 export class SanPhamComponent implements OnInit {
   p: number = 1;
   public productList:{id:string, name:string, desc: string, price: number, rate: number}[] = [];
+
   constructor(private cartService: CartService,private router: Router,private route: ActivatedRoute) { }
   onSearch(form: NgForm){
     this.productList=search(form.value.search.toString())
@@ -33,6 +34,7 @@ export class SanPhamComponent implements OnInit {
     this.router.navigateByUrl('chi-tiet/'+id);
   }
   ngOnInit(): void {
+    this.router.routeReuseStrategy.shouldReuseRoute=()=>false;
     if(filterType(this.route.snapshot.paramMap.get("type")).length==0){
       this.router.navigateByUrl('/404');
     }else{
