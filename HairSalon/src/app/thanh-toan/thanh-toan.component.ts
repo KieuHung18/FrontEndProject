@@ -13,7 +13,7 @@ export class ThanhToanComponent implements OnInit {
   public productList:{id:string, name:string, desc: string, price: number, rate: number}[]=this.cartService.getItems();
   constructor(private cartService: CartService,private router:Router) { }
   ngOnInit(): void {
-    this.cartService.load();
+
   }
   total(){
     let result=0;

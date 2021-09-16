@@ -52,7 +52,7 @@ export class GioHangComponent implements OnInit {
     return this.cartService.getQuantity(id);
   }
   ngOnInit(): void {
-  this.cartService.load();
+
   }
 
 }

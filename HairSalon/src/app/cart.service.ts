@@ -26,9 +26,7 @@ export class CartService {
       this.increaseQuantitys(product.id,qantity);
     }
   }
-  load(){
-    this.quantity = JSON.parse(<string>localStorage.getItem('quantity'));
-  }
+
   getQuantity(id: string){
     let index= this.items.findIndex(d => d.id==id);
     return this.quantity[index];
@@ -61,9 +59,11 @@ export class CartService {
   }
   getItems() {
     this.items = JSON.parse(<string>localStorage.getItem('items'));
+    this.quantity = JSON.parse(<string>localStorage.getItem('quantity'));
     return this.items;
   }
   clearCart() {
+
     this.items = [];
     this.quantity = [];
     localStorage.setItem('items', JSON.stringify(this.items));

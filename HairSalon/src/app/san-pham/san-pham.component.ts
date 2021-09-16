@@ -10,7 +10,9 @@ function  filterType(codeType: string|null): {id:string, name:string, desc: stri
 };
 function  search(name: string): {id:string, name:string, desc: string, price: number, rate: number}[]{
   let result: {id:string, name:string, desc: string, price: number, rate: number}[]=products;
-  return result.filter((x)=>x.name.toUpperCase() == name.toUpperCase());
+
+  let count = name.split("").length;
+  return result.filter((x)=>x.name.substring(0,count).toUpperCase() == name.toUpperCase());
 };
 
 @Component({
@@ -24,7 +26,13 @@ export class SanPhamComponent implements OnInit {
 
   constructor(private cartService: CartService,private router: Router,private route: ActivatedRoute) { }
   onSearch(form: NgForm){
-    this.productList=search(form.value.search.toString())
+   if (form.value.search.toString() == ""){
+     this.productList=filterType(this.route.snapshot.paramMap.get("type"));
+   }
+   else {
+     this.productList = search(form.value.search.toString())
+   }
+
   }
   onAdd(product: {id:string, name:string, desc: string, price: number, rate: number}){
     this.cartService.addToCart(product);
