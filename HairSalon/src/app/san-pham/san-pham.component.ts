@@ -42,12 +42,13 @@ export class SanPhamComponent implements OnInit {
     this.router.navigateByUrl('chi-tiet/'+id);
   }
   ngOnInit(): void {
-    this.router.routeReuseStrategy.shouldReuseRoute=()=>false;
-    if(filterType(this.route.snapshot.paramMap.get("type")).length==0){
-      this.router.navigateByUrl('/404');
-    }else{
-      this.productList=filterType(this.route.snapshot.paramMap.get("type"));
-    }
+    this.route.paramMap.subscribe(params => {
+      if(filterType(params.get("type")).length==0){
+        this.router.navigateByUrl('/404');
+      }else{
+        this.productList=filterType(params.get("type"));
+      }
+    })
   }
 
 }
